@@ -1,0 +1,4382 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L pace:ledred D1
+U 1 1 5FE3FA87
+P 1350 850
+F 0 "D1" H 1350 750 50  0000 C CNN
+F 1 "ledred" H 1350 994 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 1350 850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 1350 850 50  0001 C CNN
+F 4 "C2286" H 1350 850 50  0001 C CNN "LCSC"
+	1    1350 850 
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:USB_B_Micro J1
+U 1 1 5FE3FCAF
+P 800 1150
+F 0 "J1" H 857 1525 50  0000 C CNN
+F 1 "USB_B_Micro" H 600 1500 50  0001 L CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 950 1100 50  0001 C CNN
+F 3 "~" H 950 1100 50  0001 C CNN
+	1    800  1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L pace:ledred D13
+U 1 1 5FE419D7
+P 1550 1000
+F 0 "D13" H 1550 900 50  0000 C CNN
+F 1 "ledred" H 1550 1144 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 1550 1000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 1550 1000 50  0001 C CNN
+F 4 "C2286" H 1550 1000 50  0001 C CNN "LCSC"
+	1    1550 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D2
+U 1 1 5FE41F20
+P 1350 1150
+F 0 "D2" H 1350 1050 50  0000 C CNN
+F 1 "ledred" H 1350 1294 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 1350 1150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 1350 1150 50  0001 C CNN
+F 4 "C2286" H 1350 1150 50  0001 C CNN "LCSC"
+	1    1350 1150
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D14
+U 1 1 5FE421A7
+P 1550 1300
+F 0 "D14" H 1550 1200 50  0000 C CNN
+F 1 "ledred" H 1550 1444 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 1550 1300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 1550 1300 50  0001 C CNN
+F 4 "C2286" H 1550 1300 50  0001 C CNN "LCSC"
+	1    1550 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D3
+U 1 1 5FE42580
+P 1350 1450
+F 0 "D3" H 1350 1350 50  0000 C CNN
+F 1 "ledred" H 1350 1594 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 1350 1450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 1350 1450 50  0001 C CNN
+F 4 "C2286" H 1350 1450 50  0001 C CNN "LCSC"
+	1    1350 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D15
+U 1 1 5FE4BA1F
+P 1550 1600
+F 0 "D15" H 1550 1500 50  0000 C CNN
+F 1 "ledred" H 1550 1744 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 1550 1600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 1550 1600 50  0001 C CNN
+F 4 "C2286" H 1550 1600 50  0001 C CNN "LCSC"
+	1    1550 1600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1100 1150 1150 1150
+Wire Wire Line
+	1150 1150 1150 1000
+Wire Wire Line
+	1150 1000 1450 1000
+Wire Wire Line
+	1100 1250 1200 1250
+Wire Wire Line
+	1100 950  1100 850 
+Wire Wire Line
+	1100 850  1250 850 
+Wire Wire Line
+	1200 1250 1200 1150
+Wire Wire Line
+	1200 1150 1250 1150
+Wire Wire Line
+	1100 1350 1250 1350
+Wire Wire Line
+	1250 1350 1250 1300
+Wire Wire Line
+	1250 1300 1450 1300
+Wire Wire Line
+	800  1550 1100 1550
+Wire Wire Line
+	1100 1550 1100 1450
+Wire Wire Line
+	1100 1450 1250 1450
+Wire Wire Line
+	700  1550 700  1600
+Wire Wire Line
+	700  1600 1450 1600
+$Comp
+L power:GND #PWR?
+U 1 1 5FE53F7E
+P 1750 1750
+F 0 "#PWR?" H 1750 1500 50  0001 C CNN
+F 1 "GND" H 1755 1577 50  0000 C CNN
+F 2 "" H 1750 1750 50  0001 C CNN
+F 3 "" H 1750 1750 50  0001 C CNN
+	1    1750 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 850  1750 850 
+Wire Wire Line
+	1750 850  1750 1000
+Wire Wire Line
+	1650 1000 1750 1000
+Connection ~ 1750 1000
+Wire Wire Line
+	1750 1000 1750 1150
+Wire Wire Line
+	1450 1150 1750 1150
+Connection ~ 1750 1150
+Wire Wire Line
+	1750 1150 1750 1300
+Wire Wire Line
+	1650 1300 1750 1300
+Connection ~ 1750 1300
+Wire Wire Line
+	1750 1300 1750 1450
+Wire Wire Line
+	1450 1450 1750 1450
+Connection ~ 1750 1450
+Wire Wire Line
+	1750 1450 1750 1600
+Wire Wire Line
+	1650 1600 1750 1600
+Connection ~ 1750 1600
+Wire Wire Line
+	1750 1600 1750 1750
+$Comp
+L power:GND #PWR?
+U 1 1 5FE594A9
+P 10200 550
+F 0 "#PWR?" H 10200 300 50  0001 C CNN
+F 1 "GND" H 10205 377 50  0000 C CNN
+F 2 "" H 10200 550 50  0001 C CNN
+F 3 "" H 10200 550 50  0001 C CNN
+	1    10200 550 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5FE59814
+P 10200 550
+F 0 "#FLG?" H 10200 625 50  0001 C CNN
+F 1 "PWR_FLAG" H 10200 723 50  0001 C CNN
+F 2 "" H 10200 550 50  0001 C CNN
+F 3 "~" H 10200 550 50  0001 C CNN
+	1    10200 550 
+	1    0    0    -1  
+$EndComp
+$Comp
+L pace:ledred D4
+U 1 1 5FE693CB
+P 1350 2050
+F 0 "D4" H 1350 1950 50  0000 C CNN
+F 1 "ledred" H 1350 2194 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 1350 2050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 1350 2050 50  0001 C CNN
+F 4 "C2286" H 1350 2050 50  0001 C CNN "LCSC"
+	1    1350 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:USB_B_Micro J2
+U 1 1 5FE693D1
+P 800 2350
+F 0 "J2" H 857 2725 50  0000 C CNN
+F 1 "USB_B_Micro" H 600 2700 50  0001 L CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 950 2300 50  0001 C CNN
+F 3 "~" H 950 2300 50  0001 C CNN
+	1    800  2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L pace:ledred D16
+U 1 1 5FE693D8
+P 1550 2200
+F 0 "D16" H 1550 2100 50  0000 C CNN
+F 1 "ledred" H 1550 2344 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 1550 2200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 1550 2200 50  0001 C CNN
+F 4 "C2286" H 1550 2200 50  0001 C CNN "LCSC"
+	1    1550 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D5
+U 1 1 5FE693DF
+P 1350 2350
+F 0 "D5" H 1350 2250 50  0000 C CNN
+F 1 "ledred" H 1350 2494 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 1350 2350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 1350 2350 50  0001 C CNN
+F 4 "C2286" H 1350 2350 50  0001 C CNN "LCSC"
+	1    1350 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D17
+U 1 1 5FE693E6
+P 1550 2500
+F 0 "D17" H 1550 2400 50  0000 C CNN
+F 1 "ledred" H 1550 2644 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 1550 2500 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 1550 2500 50  0001 C CNN
+F 4 "C2286" H 1550 2500 50  0001 C CNN "LCSC"
+	1    1550 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D6
+U 1 1 5FE693ED
+P 1350 2650
+F 0 "D6" H 1350 2550 50  0000 C CNN
+F 1 "ledred" H 1350 2794 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 1350 2650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 1350 2650 50  0001 C CNN
+F 4 "C2286" H 1350 2650 50  0001 C CNN "LCSC"
+	1    1350 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D18
+U 1 1 5FE693F4
+P 1550 2800
+F 0 "D18" H 1550 2700 50  0000 C CNN
+F 1 "ledred" H 1550 2944 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 1550 2800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 1550 2800 50  0001 C CNN
+F 4 "C2286" H 1550 2800 50  0001 C CNN "LCSC"
+	1    1550 2800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1100 2350 1150 2350
+Wire Wire Line
+	1150 2350 1150 2200
+Wire Wire Line
+	1150 2200 1450 2200
+Wire Wire Line
+	1100 2450 1200 2450
+Wire Wire Line
+	1100 2150 1100 2050
+Wire Wire Line
+	1100 2050 1250 2050
+Wire Wire Line
+	1200 2450 1200 2350
+Wire Wire Line
+	1200 2350 1250 2350
+Wire Wire Line
+	1100 2550 1250 2550
+Wire Wire Line
+	1250 2550 1250 2500
+Wire Wire Line
+	1250 2500 1450 2500
+Wire Wire Line
+	800  2750 1100 2750
+Wire Wire Line
+	1100 2750 1100 2650
+Wire Wire Line
+	1100 2650 1250 2650
+Wire Wire Line
+	700  2750 700  2800
+Wire Wire Line
+	700  2800 1450 2800
+$Comp
+L power:GND #PWR?
+U 1 1 5FE6940A
+P 1750 2950
+F 0 "#PWR?" H 1750 2700 50  0001 C CNN
+F 1 "GND" H 1755 2777 50  0000 C CNN
+F 2 "" H 1750 2950 50  0001 C CNN
+F 3 "" H 1750 2950 50  0001 C CNN
+	1    1750 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 2050 1750 2050
+Wire Wire Line
+	1750 2050 1750 2200
+Wire Wire Line
+	1650 2200 1750 2200
+Connection ~ 1750 2200
+Wire Wire Line
+	1750 2200 1750 2350
+Wire Wire Line
+	1450 2350 1750 2350
+Connection ~ 1750 2350
+Wire Wire Line
+	1750 2350 1750 2500
+Wire Wire Line
+	1650 2500 1750 2500
+Connection ~ 1750 2500
+Wire Wire Line
+	1750 2500 1750 2650
+Wire Wire Line
+	1450 2650 1750 2650
+Connection ~ 1750 2650
+Wire Wire Line
+	1750 2650 1750 2800
+Wire Wire Line
+	1650 2800 1750 2800
+Connection ~ 1750 2800
+Wire Wire Line
+	1750 2800 1750 2950
+$Comp
+L pace:ledred D7
+U 1 1 5FE6C4CB
+P 1350 3250
+F 0 "D7" H 1350 3150 50  0000 C CNN
+F 1 "ledred" H 1350 3394 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 1350 3250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 1350 3250 50  0001 C CNN
+F 4 "C2286" H 1350 3250 50  0001 C CNN "LCSC"
+	1    1350 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:USB_B_Micro J3
+U 1 1 5FE6C4D1
+P 800 3550
+F 0 "J3" H 857 3925 50  0000 C CNN
+F 1 "USB_B_Micro" H 600 3900 50  0001 L CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 950 3500 50  0001 C CNN
+F 3 "~" H 950 3500 50  0001 C CNN
+	1    800  3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L pace:ledred D19
+U 1 1 5FE6C4D8
+P 1550 3400
+F 0 "D19" H 1550 3300 50  0000 C CNN
+F 1 "ledred" H 1550 3544 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 1550 3400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 1550 3400 50  0001 C CNN
+F 4 "C2286" H 1550 3400 50  0001 C CNN "LCSC"
+	1    1550 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D8
+U 1 1 5FE6C4DF
+P 1350 3550
+F 0 "D8" H 1350 3450 50  0000 C CNN
+F 1 "ledred" H 1350 3694 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 1350 3550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 1350 3550 50  0001 C CNN
+F 4 "C2286" H 1350 3550 50  0001 C CNN "LCSC"
+	1    1350 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D20
+U 1 1 5FE6C4E6
+P 1550 3700
+F 0 "D20" H 1550 3600 50  0000 C CNN
+F 1 "ledred" H 1550 3844 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 1550 3700 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 1550 3700 50  0001 C CNN
+F 4 "C2286" H 1550 3700 50  0001 C CNN "LCSC"
+	1    1550 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D9
+U 1 1 5FE6C4ED
+P 1350 3850
+F 0 "D9" H 1350 3750 50  0000 C CNN
+F 1 "ledred" H 1350 3994 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 1350 3850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 1350 3850 50  0001 C CNN
+F 4 "C2286" H 1350 3850 50  0001 C CNN "LCSC"
+	1    1350 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D21
+U 1 1 5FE6C4F4
+P 1550 4000
+F 0 "D21" H 1550 3900 50  0000 C CNN
+F 1 "ledred" H 1550 4144 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 1550 4000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 1550 4000 50  0001 C CNN
+F 4 "C2286" H 1550 4000 50  0001 C CNN "LCSC"
+	1    1550 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1100 3550 1150 3550
+Wire Wire Line
+	1150 3550 1150 3400
+Wire Wire Line
+	1150 3400 1450 3400
+Wire Wire Line
+	1100 3650 1200 3650
+Wire Wire Line
+	1100 3350 1100 3250
+Wire Wire Line
+	1100 3250 1250 3250
+Wire Wire Line
+	1200 3650 1200 3550
+Wire Wire Line
+	1200 3550 1250 3550
+Wire Wire Line
+	1100 3750 1250 3750
+Wire Wire Line
+	1250 3750 1250 3700
+Wire Wire Line
+	1250 3700 1450 3700
+Wire Wire Line
+	800  3950 1100 3950
+Wire Wire Line
+	1100 3950 1100 3850
+Wire Wire Line
+	1100 3850 1250 3850
+Wire Wire Line
+	700  3950 700  4000
+Wire Wire Line
+	700  4000 1450 4000
+$Comp
+L power:GND #PWR?
+U 1 1 5FE6C50A
+P 1750 4150
+F 0 "#PWR?" H 1750 3900 50  0001 C CNN
+F 1 "GND" H 1755 3977 50  0000 C CNN
+F 2 "" H 1750 4150 50  0001 C CNN
+F 3 "" H 1750 4150 50  0001 C CNN
+	1    1750 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 3250 1750 3250
+Wire Wire Line
+	1750 3250 1750 3400
+Wire Wire Line
+	1650 3400 1750 3400
+Connection ~ 1750 3400
+Wire Wire Line
+	1750 3400 1750 3550
+Wire Wire Line
+	1450 3550 1750 3550
+Connection ~ 1750 3550
+Wire Wire Line
+	1750 3550 1750 3700
+Wire Wire Line
+	1650 3700 1750 3700
+Connection ~ 1750 3700
+Wire Wire Line
+	1750 3700 1750 3850
+Wire Wire Line
+	1450 3850 1750 3850
+Connection ~ 1750 3850
+Wire Wire Line
+	1750 3850 1750 4000
+Wire Wire Line
+	1650 4000 1750 4000
+Connection ~ 1750 4000
+Wire Wire Line
+	1750 4000 1750 4150
+$Comp
+L pace:ledred D10
+U 1 1 5FE71F05
+P 1350 4450
+F 0 "D10" H 1350 4350 50  0000 C CNN
+F 1 "ledred" H 1350 4594 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 1350 4450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 1350 4450 50  0001 C CNN
+F 4 "C2286" H 1350 4450 50  0001 C CNN "LCSC"
+	1    1350 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:USB_B_Micro J4
+U 1 1 5FE71F0B
+P 800 4750
+F 0 "J4" H 857 5125 50  0000 C CNN
+F 1 "USB_B_Micro" H 600 5100 50  0001 L CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 950 4700 50  0001 C CNN
+F 3 "~" H 950 4700 50  0001 C CNN
+	1    800  4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L pace:ledred D22
+U 1 1 5FE71F12
+P 1550 4600
+F 0 "D22" H 1550 4500 50  0000 C CNN
+F 1 "ledred" H 1550 4744 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 1550 4600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 1550 4600 50  0001 C CNN
+F 4 "C2286" H 1550 4600 50  0001 C CNN "LCSC"
+	1    1550 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D11
+U 1 1 5FE71F19
+P 1350 4750
+F 0 "D11" H 1350 4650 50  0000 C CNN
+F 1 "ledred" H 1350 4894 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 1350 4750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 1350 4750 50  0001 C CNN
+F 4 "C2286" H 1350 4750 50  0001 C CNN "LCSC"
+	1    1350 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D23
+U 1 1 5FE71F20
+P 1550 4900
+F 0 "D23" H 1550 4800 50  0000 C CNN
+F 1 "ledred" H 1550 5044 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 1550 4900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 1550 4900 50  0001 C CNN
+F 4 "C2286" H 1550 4900 50  0001 C CNN "LCSC"
+	1    1550 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D12
+U 1 1 5FE71F27
+P 1350 5050
+F 0 "D12" H 1350 4950 50  0000 C CNN
+F 1 "ledred" H 1350 5194 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 1350 5050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 1350 5050 50  0001 C CNN
+F 4 "C2286" H 1350 5050 50  0001 C CNN "LCSC"
+	1    1350 5050
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D24
+U 1 1 5FE71F2E
+P 1550 5200
+F 0 "D24" H 1550 5100 50  0000 C CNN
+F 1 "ledred" H 1550 5344 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 1550 5200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 1550 5200 50  0001 C CNN
+F 4 "C2286" H 1550 5200 50  0001 C CNN "LCSC"
+	1    1550 5200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1100 4750 1150 4750
+Wire Wire Line
+	1150 4750 1150 4600
+Wire Wire Line
+	1150 4600 1450 4600
+Wire Wire Line
+	1100 4850 1200 4850
+Wire Wire Line
+	1100 4550 1100 4450
+Wire Wire Line
+	1100 4450 1250 4450
+Wire Wire Line
+	1200 4850 1200 4750
+Wire Wire Line
+	1200 4750 1250 4750
+Wire Wire Line
+	1100 4950 1250 4950
+Wire Wire Line
+	1250 4950 1250 4900
+Wire Wire Line
+	1250 4900 1450 4900
+Wire Wire Line
+	800  5150 1100 5150
+Wire Wire Line
+	1100 5150 1100 5050
+Wire Wire Line
+	1100 5050 1250 5050
+Wire Wire Line
+	700  5150 700  5200
+Wire Wire Line
+	700  5200 1450 5200
+$Comp
+L power:GND #PWR?
+U 1 1 5FE71F44
+P 1750 5350
+F 0 "#PWR?" H 1750 5100 50  0001 C CNN
+F 1 "GND" H 1755 5177 50  0000 C CNN
+F 2 "" H 1750 5350 50  0001 C CNN
+F 3 "" H 1750 5350 50  0001 C CNN
+	1    1750 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 4450 1750 4450
+Wire Wire Line
+	1750 4450 1750 4600
+Wire Wire Line
+	1650 4600 1750 4600
+Connection ~ 1750 4600
+Wire Wire Line
+	1750 4600 1750 4750
+Wire Wire Line
+	1450 4750 1750 4750
+Connection ~ 1750 4750
+Wire Wire Line
+	1750 4750 1750 4900
+Wire Wire Line
+	1650 4900 1750 4900
+Connection ~ 1750 4900
+Wire Wire Line
+	1750 4900 1750 5050
+Wire Wire Line
+	1450 5050 1750 5050
+Connection ~ 1750 5050
+Wire Wire Line
+	1750 5050 1750 5200
+Wire Wire Line
+	1650 5200 1750 5200
+Connection ~ 1750 5200
+Wire Wire Line
+	1750 5200 1750 5350
+$Comp
+L pace:ledred D58
+U 1 1 5FE77126
+P 3950 4450
+F 0 "D58" H 3950 4350 50  0000 C CNN
+F 1 "ledred" H 3950 4594 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 3950 4450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 3950 4450 50  0001 C CNN
+F 4 "C2286" H 3950 4450 50  0001 C CNN "LCSC"
+	1    3950 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:USB_B_Micro J12
+U 1 1 5FE7712C
+P 3400 4750
+F 0 "J12" H 3457 5125 50  0000 C CNN
+F 1 "USB_B_Micro" H 3200 5100 50  0001 L CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 3550 4700 50  0001 C CNN
+F 3 "~" H 3550 4700 50  0001 C CNN
+	1    3400 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L pace:ledred D70
+U 1 1 5FE77133
+P 4150 4600
+F 0 "D70" H 4150 4500 50  0000 C CNN
+F 1 "ledred" H 4150 4744 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 4150 4600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 4150 4600 50  0001 C CNN
+F 4 "C2286" H 4150 4600 50  0001 C CNN "LCSC"
+	1    4150 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D59
+U 1 1 5FE7713A
+P 3950 4750
+F 0 "D59" H 3950 4650 50  0000 C CNN
+F 1 "ledred" H 3950 4894 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 3950 4750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 3950 4750 50  0001 C CNN
+F 4 "C2286" H 3950 4750 50  0001 C CNN "LCSC"
+	1    3950 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D71
+U 1 1 5FE77141
+P 4150 4900
+F 0 "D71" H 4150 4800 50  0000 C CNN
+F 1 "ledred" H 4150 5044 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 4150 4900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 4150 4900 50  0001 C CNN
+F 4 "C2286" H 4150 4900 50  0001 C CNN "LCSC"
+	1    4150 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D60
+U 1 1 5FE77148
+P 3950 5050
+F 0 "D60" H 3950 4950 50  0000 C CNN
+F 1 "ledred" H 3950 5194 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 3950 5050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 3950 5050 50  0001 C CNN
+F 4 "C2286" H 3950 5050 50  0001 C CNN "LCSC"
+	1    3950 5050
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D72
+U 1 1 5FE7714F
+P 4150 5200
+F 0 "D72" H 4150 5100 50  0000 C CNN
+F 1 "ledred" H 4150 5344 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 4150 5200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 4150 5200 50  0001 C CNN
+F 4 "C2286" H 4150 5200 50  0001 C CNN "LCSC"
+	1    4150 5200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3700 4750 3750 4750
+Wire Wire Line
+	3750 4750 3750 4600
+Wire Wire Line
+	3750 4600 4050 4600
+Wire Wire Line
+	3700 4850 3800 4850
+Wire Wire Line
+	3700 4550 3700 4450
+Wire Wire Line
+	3700 4450 3850 4450
+Wire Wire Line
+	3800 4850 3800 4750
+Wire Wire Line
+	3800 4750 3850 4750
+Wire Wire Line
+	3700 4950 3850 4950
+Wire Wire Line
+	3850 4950 3850 4900
+Wire Wire Line
+	3850 4900 4050 4900
+Wire Wire Line
+	3400 5150 3700 5150
+Wire Wire Line
+	3700 5150 3700 5050
+Wire Wire Line
+	3700 5050 3850 5050
+Wire Wire Line
+	3300 5150 3300 5200
+Wire Wire Line
+	3300 5200 4050 5200
+$Comp
+L power:GND #PWR?
+U 1 1 5FE77165
+P 4350 5350
+F 0 "#PWR?" H 4350 5100 50  0001 C CNN
+F 1 "GND" H 4355 5177 50  0000 C CNN
+F 2 "" H 4350 5350 50  0001 C CNN
+F 3 "" H 4350 5350 50  0001 C CNN
+	1    4350 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 4450 4350 4450
+Wire Wire Line
+	4350 4450 4350 4600
+Wire Wire Line
+	4250 4600 4350 4600
+Connection ~ 4350 4600
+Wire Wire Line
+	4350 4600 4350 4750
+Wire Wire Line
+	4050 4750 4350 4750
+Connection ~ 4350 4750
+Wire Wire Line
+	4350 4750 4350 4900
+Wire Wire Line
+	4250 4900 4350 4900
+Connection ~ 4350 4900
+Wire Wire Line
+	4350 4900 4350 5050
+Wire Wire Line
+	4050 5050 4350 5050
+Connection ~ 4350 5050
+Wire Wire Line
+	4350 5050 4350 5200
+Wire Wire Line
+	4250 5200 4350 5200
+Connection ~ 4350 5200
+Wire Wire Line
+	4350 5200 4350 5350
+$Comp
+L pace:ledred D34
+U 1 1 5FE7DFB6
+P 2650 4450
+F 0 "D34" H 2650 4350 50  0000 C CNN
+F 1 "ledred" H 2650 4594 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 2650 4450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 2650 4450 50  0001 C CNN
+F 4 "C2286" H 2650 4450 50  0001 C CNN "LCSC"
+	1    2650 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:USB_B_Micro J8
+U 1 1 5FE7DFBC
+P 2100 4750
+F 0 "J8" H 2157 5125 50  0000 C CNN
+F 1 "USB_B_Micro" H 1900 5100 50  0001 L CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 2250 4700 50  0001 C CNN
+F 3 "~" H 2250 4700 50  0001 C CNN
+	1    2100 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L pace:ledred D46
+U 1 1 5FE7DFC3
+P 2850 4600
+F 0 "D46" H 2850 4500 50  0000 C CNN
+F 1 "ledred" H 2850 4744 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 2850 4600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 2850 4600 50  0001 C CNN
+F 4 "C2286" H 2850 4600 50  0001 C CNN "LCSC"
+	1    2850 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D35
+U 1 1 5FE7DFCA
+P 2650 4750
+F 0 "D35" H 2650 4650 50  0000 C CNN
+F 1 "ledred" H 2650 4894 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 2650 4750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 2650 4750 50  0001 C CNN
+F 4 "C2286" H 2650 4750 50  0001 C CNN "LCSC"
+	1    2650 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D47
+U 1 1 5FE7DFD1
+P 2850 4900
+F 0 "D47" H 2850 4800 50  0000 C CNN
+F 1 "ledred" H 2850 5044 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 2850 4900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 2850 4900 50  0001 C CNN
+F 4 "C2286" H 2850 4900 50  0001 C CNN "LCSC"
+	1    2850 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D36
+U 1 1 5FE7DFD8
+P 2650 5050
+F 0 "D36" H 2650 4950 50  0000 C CNN
+F 1 "ledred" H 2650 5194 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 2650 5050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 2650 5050 50  0001 C CNN
+F 4 "C2286" H 2650 5050 50  0001 C CNN "LCSC"
+	1    2650 5050
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D48
+U 1 1 5FE7DFDF
+P 2850 5200
+F 0 "D48" H 2850 5100 50  0000 C CNN
+F 1 "ledred" H 2850 5344 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 2850 5200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 2850 5200 50  0001 C CNN
+F 4 "C2286" H 2850 5200 50  0001 C CNN "LCSC"
+	1    2850 5200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2400 4750 2450 4750
+Wire Wire Line
+	2450 4750 2450 4600
+Wire Wire Line
+	2450 4600 2750 4600
+Wire Wire Line
+	2400 4850 2500 4850
+Wire Wire Line
+	2400 4550 2400 4450
+Wire Wire Line
+	2400 4450 2550 4450
+Wire Wire Line
+	2500 4850 2500 4750
+Wire Wire Line
+	2500 4750 2550 4750
+Wire Wire Line
+	2400 4950 2550 4950
+Wire Wire Line
+	2550 4950 2550 4900
+Wire Wire Line
+	2550 4900 2750 4900
+Wire Wire Line
+	2100 5150 2400 5150
+Wire Wire Line
+	2400 5150 2400 5050
+Wire Wire Line
+	2400 5050 2550 5050
+Wire Wire Line
+	2000 5150 2000 5200
+Wire Wire Line
+	2000 5200 2750 5200
+$Comp
+L power:GND #PWR?
+U 1 1 5FE7DFF5
+P 3050 5350
+F 0 "#PWR?" H 3050 5100 50  0001 C CNN
+F 1 "GND" H 3055 5177 50  0000 C CNN
+F 2 "" H 3050 5350 50  0001 C CNN
+F 3 "" H 3050 5350 50  0001 C CNN
+	1    3050 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 4450 3050 4450
+Wire Wire Line
+	3050 4450 3050 4600
+Wire Wire Line
+	2950 4600 3050 4600
+Connection ~ 3050 4600
+Wire Wire Line
+	3050 4600 3050 4750
+Wire Wire Line
+	2750 4750 3050 4750
+Connection ~ 3050 4750
+Wire Wire Line
+	3050 4750 3050 4900
+Wire Wire Line
+	2950 4900 3050 4900
+Connection ~ 3050 4900
+Wire Wire Line
+	3050 4900 3050 5050
+Wire Wire Line
+	2750 5050 3050 5050
+Connection ~ 3050 5050
+Wire Wire Line
+	3050 5050 3050 5200
+Wire Wire Line
+	2950 5200 3050 5200
+Connection ~ 3050 5200
+Wire Wire Line
+	3050 5200 3050 5350
+$Comp
+L pace:ledred D25
+U 1 1 5FE8A4C5
+P 2650 850
+F 0 "D25" H 2650 750 50  0000 C CNN
+F 1 "ledred" H 2650 994 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 2650 850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 2650 850 50  0001 C CNN
+F 4 "C2286" H 2650 850 50  0001 C CNN "LCSC"
+	1    2650 850 
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:USB_B_Micro J5
+U 1 1 5FE8A4CB
+P 2100 1150
+F 0 "J5" H 2157 1525 50  0000 C CNN
+F 1 "USB_B_Micro" H 1900 1500 50  0001 L CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 2250 1100 50  0001 C CNN
+F 3 "~" H 2250 1100 50  0001 C CNN
+	1    2100 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L pace:ledred D37
+U 1 1 5FE8A4D2
+P 2850 1000
+F 0 "D37" H 2850 900 50  0000 C CNN
+F 1 "ledred" H 2850 1144 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 2850 1000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 2850 1000 50  0001 C CNN
+F 4 "C2286" H 2850 1000 50  0001 C CNN "LCSC"
+	1    2850 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D26
+U 1 1 5FE8A4D9
+P 2650 1150
+F 0 "D26" H 2650 1050 50  0000 C CNN
+F 1 "ledred" H 2650 1294 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 2650 1150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 2650 1150 50  0001 C CNN
+F 4 "C2286" H 2650 1150 50  0001 C CNN "LCSC"
+	1    2650 1150
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D38
+U 1 1 5FE8A4E0
+P 2850 1300
+F 0 "D38" H 2850 1200 50  0000 C CNN
+F 1 "ledred" H 2850 1444 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 2850 1300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 2850 1300 50  0001 C CNN
+F 4 "C2286" H 2850 1300 50  0001 C CNN "LCSC"
+	1    2850 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D27
+U 1 1 5FE8A4E7
+P 2650 1450
+F 0 "D27" H 2650 1350 50  0000 C CNN
+F 1 "ledred" H 2650 1594 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 2650 1450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 2650 1450 50  0001 C CNN
+F 4 "C2286" H 2650 1450 50  0001 C CNN "LCSC"
+	1    2650 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D39
+U 1 1 5FE8A4EE
+P 2850 1600
+F 0 "D39" H 2850 1500 50  0000 C CNN
+F 1 "ledred" H 2850 1744 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 2850 1600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 2850 1600 50  0001 C CNN
+F 4 "C2286" H 2850 1600 50  0001 C CNN "LCSC"
+	1    2850 1600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2400 1150 2450 1150
+Wire Wire Line
+	2450 1150 2450 1000
+Wire Wire Line
+	2450 1000 2750 1000
+Wire Wire Line
+	2400 1250 2500 1250
+Wire Wire Line
+	2400 950  2400 850 
+Wire Wire Line
+	2400 850  2550 850 
+Wire Wire Line
+	2500 1250 2500 1150
+Wire Wire Line
+	2500 1150 2550 1150
+Wire Wire Line
+	2400 1350 2550 1350
+Wire Wire Line
+	2550 1350 2550 1300
+Wire Wire Line
+	2550 1300 2750 1300
+Wire Wire Line
+	2100 1550 2400 1550
+Wire Wire Line
+	2400 1550 2400 1450
+Wire Wire Line
+	2400 1450 2550 1450
+Wire Wire Line
+	2000 1550 2000 1600
+Wire Wire Line
+	2000 1600 2750 1600
+$Comp
+L power:GND #PWR?
+U 1 1 5FE8A504
+P 3050 1750
+F 0 "#PWR?" H 3050 1500 50  0001 C CNN
+F 1 "GND" H 3055 1577 50  0000 C CNN
+F 2 "" H 3050 1750 50  0001 C CNN
+F 3 "" H 3050 1750 50  0001 C CNN
+	1    3050 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 850  3050 850 
+Wire Wire Line
+	3050 850  3050 1000
+Wire Wire Line
+	2950 1000 3050 1000
+Connection ~ 3050 1000
+Wire Wire Line
+	3050 1000 3050 1150
+Wire Wire Line
+	2750 1150 3050 1150
+Connection ~ 3050 1150
+Wire Wire Line
+	3050 1150 3050 1300
+Wire Wire Line
+	2950 1300 3050 1300
+Connection ~ 3050 1300
+Wire Wire Line
+	3050 1300 3050 1450
+Wire Wire Line
+	2750 1450 3050 1450
+Connection ~ 3050 1450
+Wire Wire Line
+	3050 1450 3050 1600
+Wire Wire Line
+	2950 1600 3050 1600
+Connection ~ 3050 1600
+Wire Wire Line
+	3050 1600 3050 1750
+$Comp
+L pace:ledred D28
+U 1 1 5FE9591D
+P 2650 2050
+F 0 "D28" H 2650 1950 50  0000 C CNN
+F 1 "ledred" H 2650 2194 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 2650 2050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 2650 2050 50  0001 C CNN
+F 4 "C2286" H 2650 2050 50  0001 C CNN "LCSC"
+	1    2650 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:USB_B_Micro J6
+U 1 1 5FE95923
+P 2100 2350
+F 0 "J6" H 2157 2725 50  0000 C CNN
+F 1 "USB_B_Micro" H 1900 2700 50  0001 L CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 2250 2300 50  0001 C CNN
+F 3 "~" H 2250 2300 50  0001 C CNN
+	1    2100 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L pace:ledred D40
+U 1 1 5FE9592A
+P 2850 2200
+F 0 "D40" H 2850 2100 50  0000 C CNN
+F 1 "ledred" H 2850 2344 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 2850 2200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 2850 2200 50  0001 C CNN
+F 4 "C2286" H 2850 2200 50  0001 C CNN "LCSC"
+	1    2850 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D29
+U 1 1 5FE95931
+P 2650 2350
+F 0 "D29" H 2650 2250 50  0000 C CNN
+F 1 "ledred" H 2650 2494 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 2650 2350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 2650 2350 50  0001 C CNN
+F 4 "C2286" H 2650 2350 50  0001 C CNN "LCSC"
+	1    2650 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D41
+U 1 1 5FE95938
+P 2850 2500
+F 0 "D41" H 2850 2400 50  0000 C CNN
+F 1 "ledred" H 2850 2644 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 2850 2500 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 2850 2500 50  0001 C CNN
+F 4 "C2286" H 2850 2500 50  0001 C CNN "LCSC"
+	1    2850 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D30
+U 1 1 5FE9593F
+P 2650 2650
+F 0 "D30" H 2650 2550 50  0000 C CNN
+F 1 "ledred" H 2650 2794 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 2650 2650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 2650 2650 50  0001 C CNN
+F 4 "C2286" H 2650 2650 50  0001 C CNN "LCSC"
+	1    2650 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D42
+U 1 1 5FE95946
+P 2850 2800
+F 0 "D42" H 2850 2700 50  0000 C CNN
+F 1 "ledred" H 2850 2944 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 2850 2800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 2850 2800 50  0001 C CNN
+F 4 "C2286" H 2850 2800 50  0001 C CNN "LCSC"
+	1    2850 2800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2400 2350 2450 2350
+Wire Wire Line
+	2450 2350 2450 2200
+Wire Wire Line
+	2450 2200 2750 2200
+Wire Wire Line
+	2400 2450 2500 2450
+Wire Wire Line
+	2400 2150 2400 2050
+Wire Wire Line
+	2400 2050 2550 2050
+Wire Wire Line
+	2500 2450 2500 2350
+Wire Wire Line
+	2500 2350 2550 2350
+Wire Wire Line
+	2400 2550 2550 2550
+Wire Wire Line
+	2550 2550 2550 2500
+Wire Wire Line
+	2550 2500 2750 2500
+Wire Wire Line
+	2100 2750 2400 2750
+Wire Wire Line
+	2400 2750 2400 2650
+Wire Wire Line
+	2400 2650 2550 2650
+Wire Wire Line
+	2000 2750 2000 2800
+Wire Wire Line
+	2000 2800 2750 2800
+$Comp
+L power:GND #PWR?
+U 1 1 5FE9595C
+P 3050 2950
+F 0 "#PWR?" H 3050 2700 50  0001 C CNN
+F 1 "GND" H 3055 2777 50  0000 C CNN
+F 2 "" H 3050 2950 50  0001 C CNN
+F 3 "" H 3050 2950 50  0001 C CNN
+	1    3050 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 2050 3050 2050
+Wire Wire Line
+	3050 2050 3050 2200
+Wire Wire Line
+	2950 2200 3050 2200
+Connection ~ 3050 2200
+Wire Wire Line
+	3050 2200 3050 2350
+Wire Wire Line
+	2750 2350 3050 2350
+Connection ~ 3050 2350
+Wire Wire Line
+	3050 2350 3050 2500
+Wire Wire Line
+	2950 2500 3050 2500
+Connection ~ 3050 2500
+Wire Wire Line
+	3050 2500 3050 2650
+Wire Wire Line
+	2750 2650 3050 2650
+Connection ~ 3050 2650
+Wire Wire Line
+	3050 2650 3050 2800
+Wire Wire Line
+	2950 2800 3050 2800
+Connection ~ 3050 2800
+Wire Wire Line
+	3050 2800 3050 2950
+$Comp
+L pace:ledred D31
+U 1 1 5FEA3624
+P 2650 3250
+F 0 "D31" H 2650 3150 50  0000 C CNN
+F 1 "ledred" H 2650 3394 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 2650 3250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 2650 3250 50  0001 C CNN
+F 4 "C2286" H 2650 3250 50  0001 C CNN "LCSC"
+	1    2650 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:USB_B_Micro J7
+U 1 1 5FEA362A
+P 2100 3550
+F 0 "J7" H 2157 3925 50  0000 C CNN
+F 1 "USB_B_Micro" H 1900 3900 50  0001 L CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 2250 3500 50  0001 C CNN
+F 3 "~" H 2250 3500 50  0001 C CNN
+	1    2100 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L pace:ledred D43
+U 1 1 5FEA3631
+P 2850 3400
+F 0 "D43" H 2850 3300 50  0000 C CNN
+F 1 "ledred" H 2850 3544 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 2850 3400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 2850 3400 50  0001 C CNN
+F 4 "C2286" H 2850 3400 50  0001 C CNN "LCSC"
+	1    2850 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D32
+U 1 1 5FEA3638
+P 2650 3550
+F 0 "D32" H 2650 3450 50  0000 C CNN
+F 1 "ledred" H 2650 3694 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 2650 3550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 2650 3550 50  0001 C CNN
+F 4 "C2286" H 2650 3550 50  0001 C CNN "LCSC"
+	1    2650 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D44
+U 1 1 5FEA363F
+P 2850 3700
+F 0 "D44" H 2850 3600 50  0000 C CNN
+F 1 "ledred" H 2850 3844 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 2850 3700 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 2850 3700 50  0001 C CNN
+F 4 "C2286" H 2850 3700 50  0001 C CNN "LCSC"
+	1    2850 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D33
+U 1 1 5FEA3646
+P 2650 3850
+F 0 "D33" H 2650 3750 50  0000 C CNN
+F 1 "ledred" H 2650 3994 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 2650 3850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 2650 3850 50  0001 C CNN
+F 4 "C2286" H 2650 3850 50  0001 C CNN "LCSC"
+	1    2650 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D45
+U 1 1 5FEA364D
+P 2850 4000
+F 0 "D45" H 2850 3900 50  0000 C CNN
+F 1 "ledred" H 2850 4144 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 2850 4000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 2850 4000 50  0001 C CNN
+F 4 "C2286" H 2850 4000 50  0001 C CNN "LCSC"
+	1    2850 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2400 3550 2450 3550
+Wire Wire Line
+	2450 3550 2450 3400
+Wire Wire Line
+	2450 3400 2750 3400
+Wire Wire Line
+	2400 3650 2500 3650
+Wire Wire Line
+	2400 3350 2400 3250
+Wire Wire Line
+	2400 3250 2550 3250
+Wire Wire Line
+	2500 3650 2500 3550
+Wire Wire Line
+	2500 3550 2550 3550
+Wire Wire Line
+	2400 3750 2550 3750
+Wire Wire Line
+	2550 3750 2550 3700
+Wire Wire Line
+	2550 3700 2750 3700
+Wire Wire Line
+	2100 3950 2400 3950
+Wire Wire Line
+	2400 3950 2400 3850
+Wire Wire Line
+	2400 3850 2550 3850
+Wire Wire Line
+	2000 3950 2000 4000
+Wire Wire Line
+	2000 4000 2750 4000
+$Comp
+L power:GND #PWR?
+U 1 1 5FEA3663
+P 3050 4150
+F 0 "#PWR?" H 3050 3900 50  0001 C CNN
+F 1 "GND" H 3055 3977 50  0000 C CNN
+F 2 "" H 3050 4150 50  0001 C CNN
+F 3 "" H 3050 4150 50  0001 C CNN
+	1    3050 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 3250 3050 3250
+Wire Wire Line
+	3050 3250 3050 3400
+Wire Wire Line
+	2950 3400 3050 3400
+Connection ~ 3050 3400
+Wire Wire Line
+	3050 3400 3050 3550
+Wire Wire Line
+	2750 3550 3050 3550
+Connection ~ 3050 3550
+Wire Wire Line
+	3050 3550 3050 3700
+Wire Wire Line
+	2950 3700 3050 3700
+Connection ~ 3050 3700
+Wire Wire Line
+	3050 3700 3050 3850
+Wire Wire Line
+	2750 3850 3050 3850
+Connection ~ 3050 3850
+Wire Wire Line
+	3050 3850 3050 4000
+Wire Wire Line
+	2950 4000 3050 4000
+Connection ~ 3050 4000
+Wire Wire Line
+	3050 4000 3050 4150
+$Comp
+L pace:ledred D49
+U 1 1 5FF03C31
+P 3950 850
+F 0 "D49" H 3950 750 50  0000 C CNN
+F 1 "ledred" H 3950 994 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 3950 850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 3950 850 50  0001 C CNN
+F 4 "C2286" H 3950 850 50  0001 C CNN "LCSC"
+	1    3950 850 
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:USB_B_Micro J9
+U 1 1 5FF03C37
+P 3400 1150
+F 0 "J9" H 3457 1525 50  0000 C CNN
+F 1 "USB_B_Micro" H 3200 1500 50  0001 L CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 3550 1100 50  0001 C CNN
+F 3 "~" H 3550 1100 50  0001 C CNN
+	1    3400 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L pace:ledred D61
+U 1 1 5FF03C3E
+P 4150 1000
+F 0 "D61" H 4150 900 50  0000 C CNN
+F 1 "ledred" H 4150 1144 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 4150 1000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 4150 1000 50  0001 C CNN
+F 4 "C2286" H 4150 1000 50  0001 C CNN "LCSC"
+	1    4150 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D50
+U 1 1 5FF03C45
+P 3950 1150
+F 0 "D50" H 3950 1050 50  0000 C CNN
+F 1 "ledred" H 3950 1294 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 3950 1150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 3950 1150 50  0001 C CNN
+F 4 "C2286" H 3950 1150 50  0001 C CNN "LCSC"
+	1    3950 1150
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D62
+U 1 1 5FF03C4C
+P 4150 1300
+F 0 "D62" H 4150 1200 50  0000 C CNN
+F 1 "ledred" H 4150 1444 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 4150 1300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 4150 1300 50  0001 C CNN
+F 4 "C2286" H 4150 1300 50  0001 C CNN "LCSC"
+	1    4150 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D51
+U 1 1 5FF03C53
+P 3950 1450
+F 0 "D51" H 3950 1350 50  0000 C CNN
+F 1 "ledred" H 3950 1594 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 3950 1450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 3950 1450 50  0001 C CNN
+F 4 "C2286" H 3950 1450 50  0001 C CNN "LCSC"
+	1    3950 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D63
+U 1 1 5FF03C5A
+P 4150 1600
+F 0 "D63" H 4150 1500 50  0000 C CNN
+F 1 "ledred" H 4150 1744 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 4150 1600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 4150 1600 50  0001 C CNN
+F 4 "C2286" H 4150 1600 50  0001 C CNN "LCSC"
+	1    4150 1600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3700 1150 3750 1150
+Wire Wire Line
+	3750 1150 3750 1000
+Wire Wire Line
+	3750 1000 4050 1000
+Wire Wire Line
+	3700 1250 3800 1250
+Wire Wire Line
+	3700 950  3700 850 
+Wire Wire Line
+	3700 850  3850 850 
+Wire Wire Line
+	3800 1250 3800 1150
+Wire Wire Line
+	3800 1150 3850 1150
+Wire Wire Line
+	3700 1350 3850 1350
+Wire Wire Line
+	3850 1350 3850 1300
+Wire Wire Line
+	3850 1300 4050 1300
+Wire Wire Line
+	3400 1550 3700 1550
+Wire Wire Line
+	3700 1550 3700 1450
+Wire Wire Line
+	3700 1450 3850 1450
+Wire Wire Line
+	3300 1550 3300 1600
+Wire Wire Line
+	3300 1600 4050 1600
+$Comp
+L power:GND #PWR?
+U 1 1 5FF03C70
+P 4350 1750
+F 0 "#PWR?" H 4350 1500 50  0001 C CNN
+F 1 "GND" H 4355 1577 50  0000 C CNN
+F 2 "" H 4350 1750 50  0001 C CNN
+F 3 "" H 4350 1750 50  0001 C CNN
+	1    4350 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 850  4350 850 
+Wire Wire Line
+	4350 850  4350 1000
+Wire Wire Line
+	4250 1000 4350 1000
+Connection ~ 4350 1000
+Wire Wire Line
+	4350 1000 4350 1150
+Wire Wire Line
+	4050 1150 4350 1150
+Connection ~ 4350 1150
+Wire Wire Line
+	4350 1150 4350 1300
+Wire Wire Line
+	4250 1300 4350 1300
+Connection ~ 4350 1300
+Wire Wire Line
+	4350 1300 4350 1450
+Wire Wire Line
+	4050 1450 4350 1450
+Connection ~ 4350 1450
+Wire Wire Line
+	4350 1450 4350 1600
+Wire Wire Line
+	4250 1600 4350 1600
+Connection ~ 4350 1600
+Wire Wire Line
+	4350 1600 4350 1750
+$Comp
+L pace:ledred D52
+U 1 1 5FF24A66
+P 3950 2050
+F 0 "D52" H 3950 1950 50  0000 C CNN
+F 1 "ledred" H 3950 2194 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 3950 2050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 3950 2050 50  0001 C CNN
+F 4 "C2286" H 3950 2050 50  0001 C CNN "LCSC"
+	1    3950 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:USB_B_Micro J10
+U 1 1 5FF24A6C
+P 3400 2350
+F 0 "J10" H 3457 2725 50  0000 C CNN
+F 1 "USB_B_Micro" H 3200 2700 50  0001 L CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 3550 2300 50  0001 C CNN
+F 3 "~" H 3550 2300 50  0001 C CNN
+	1    3400 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L pace:ledred D64
+U 1 1 5FF24A73
+P 4150 2200
+F 0 "D64" H 4150 2100 50  0000 C CNN
+F 1 "ledred" H 4150 2344 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 4150 2200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 4150 2200 50  0001 C CNN
+F 4 "C2286" H 4150 2200 50  0001 C CNN "LCSC"
+	1    4150 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D53
+U 1 1 5FF24A7A
+P 3950 2350
+F 0 "D53" H 3950 2250 50  0000 C CNN
+F 1 "ledred" H 3950 2494 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 3950 2350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 3950 2350 50  0001 C CNN
+F 4 "C2286" H 3950 2350 50  0001 C CNN "LCSC"
+	1    3950 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D65
+U 1 1 5FF24A81
+P 4150 2500
+F 0 "D65" H 4150 2400 50  0000 C CNN
+F 1 "ledred" H 4150 2644 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 4150 2500 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 4150 2500 50  0001 C CNN
+F 4 "C2286" H 4150 2500 50  0001 C CNN "LCSC"
+	1    4150 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D54
+U 1 1 5FF24A88
+P 3950 2650
+F 0 "D54" H 3950 2550 50  0000 C CNN
+F 1 "ledred" H 3950 2794 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 3950 2650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 3950 2650 50  0001 C CNN
+F 4 "C2286" H 3950 2650 50  0001 C CNN "LCSC"
+	1    3950 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D66
+U 1 1 5FF24A8F
+P 4150 2800
+F 0 "D66" H 4150 2700 50  0000 C CNN
+F 1 "ledred" H 4150 2944 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 4150 2800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 4150 2800 50  0001 C CNN
+F 4 "C2286" H 4150 2800 50  0001 C CNN "LCSC"
+	1    4150 2800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3700 2350 3750 2350
+Wire Wire Line
+	3750 2350 3750 2200
+Wire Wire Line
+	3750 2200 4050 2200
+Wire Wire Line
+	3700 2450 3800 2450
+Wire Wire Line
+	3700 2150 3700 2050
+Wire Wire Line
+	3700 2050 3850 2050
+Wire Wire Line
+	3800 2450 3800 2350
+Wire Wire Line
+	3800 2350 3850 2350
+Wire Wire Line
+	3700 2550 3850 2550
+Wire Wire Line
+	3850 2550 3850 2500
+Wire Wire Line
+	3850 2500 4050 2500
+Wire Wire Line
+	3400 2750 3700 2750
+Wire Wire Line
+	3700 2750 3700 2650
+Wire Wire Line
+	3700 2650 3850 2650
+Wire Wire Line
+	3300 2750 3300 2800
+Wire Wire Line
+	3300 2800 4050 2800
+$Comp
+L power:GND #PWR?
+U 1 1 5FF24AA5
+P 4350 2950
+F 0 "#PWR?" H 4350 2700 50  0001 C CNN
+F 1 "GND" H 4355 2777 50  0000 C CNN
+F 2 "" H 4350 2950 50  0001 C CNN
+F 3 "" H 4350 2950 50  0001 C CNN
+	1    4350 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 2050 4350 2050
+Wire Wire Line
+	4350 2050 4350 2200
+Wire Wire Line
+	4250 2200 4350 2200
+Connection ~ 4350 2200
+Wire Wire Line
+	4350 2200 4350 2350
+Wire Wire Line
+	4050 2350 4350 2350
+Connection ~ 4350 2350
+Wire Wire Line
+	4350 2350 4350 2500
+Wire Wire Line
+	4250 2500 4350 2500
+Connection ~ 4350 2500
+Wire Wire Line
+	4350 2500 4350 2650
+Wire Wire Line
+	4050 2650 4350 2650
+Connection ~ 4350 2650
+Wire Wire Line
+	4350 2650 4350 2800
+Wire Wire Line
+	4250 2800 4350 2800
+Connection ~ 4350 2800
+Wire Wire Line
+	4350 2800 4350 2950
+$Comp
+L pace:ledred D55
+U 1 1 5FF4877E
+P 3950 3250
+F 0 "D55" H 3950 3150 50  0000 C CNN
+F 1 "ledred" H 3950 3394 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 3950 3250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 3950 3250 50  0001 C CNN
+F 4 "C2286" H 3950 3250 50  0001 C CNN "LCSC"
+	1    3950 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:USB_B_Micro J11
+U 1 1 5FF48784
+P 3400 3550
+F 0 "J11" H 3457 3925 50  0000 C CNN
+F 1 "USB_B_Micro" H 3200 3900 50  0001 L CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 3550 3500 50  0001 C CNN
+F 3 "~" H 3550 3500 50  0001 C CNN
+	1    3400 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L pace:ledred D67
+U 1 1 5FF4878B
+P 4150 3400
+F 0 "D67" H 4150 3300 50  0000 C CNN
+F 1 "ledred" H 4150 3544 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 4150 3400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 4150 3400 50  0001 C CNN
+F 4 "C2286" H 4150 3400 50  0001 C CNN "LCSC"
+	1    4150 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D56
+U 1 1 5FF48792
+P 3950 3550
+F 0 "D56" H 3950 3450 50  0000 C CNN
+F 1 "ledred" H 3950 3694 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 3950 3550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 3950 3550 50  0001 C CNN
+F 4 "C2286" H 3950 3550 50  0001 C CNN "LCSC"
+	1    3950 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D68
+U 1 1 5FF48799
+P 4150 3700
+F 0 "D68" H 4150 3600 50  0000 C CNN
+F 1 "ledred" H 4150 3844 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 4150 3700 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 4150 3700 50  0001 C CNN
+F 4 "C2286" H 4150 3700 50  0001 C CNN "LCSC"
+	1    4150 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D57
+U 1 1 5FF487A0
+P 3950 3850
+F 0 "D57" H 3950 3750 50  0000 C CNN
+F 1 "ledred" H 3950 3994 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 3950 3850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 3950 3850 50  0001 C CNN
+F 4 "C2286" H 3950 3850 50  0001 C CNN "LCSC"
+	1    3950 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D69
+U 1 1 5FF487A7
+P 4150 4000
+F 0 "D69" H 4150 3900 50  0000 C CNN
+F 1 "ledred" H 4150 4144 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 4150 4000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 4150 4000 50  0001 C CNN
+F 4 "C2286" H 4150 4000 50  0001 C CNN "LCSC"
+	1    4150 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3700 3550 3750 3550
+Wire Wire Line
+	3750 3550 3750 3400
+Wire Wire Line
+	3750 3400 4050 3400
+Wire Wire Line
+	3700 3650 3800 3650
+Wire Wire Line
+	3700 3350 3700 3250
+Wire Wire Line
+	3700 3250 3850 3250
+Wire Wire Line
+	3800 3650 3800 3550
+Wire Wire Line
+	3800 3550 3850 3550
+Wire Wire Line
+	3700 3750 3850 3750
+Wire Wire Line
+	3850 3750 3850 3700
+Wire Wire Line
+	3850 3700 4050 3700
+Wire Wire Line
+	3400 3950 3700 3950
+Wire Wire Line
+	3700 3950 3700 3850
+Wire Wire Line
+	3700 3850 3850 3850
+Wire Wire Line
+	3300 3950 3300 4000
+Wire Wire Line
+	3300 4000 4050 4000
+$Comp
+L power:GND #PWR?
+U 1 1 5FF487BD
+P 4350 4150
+F 0 "#PWR?" H 4350 3900 50  0001 C CNN
+F 1 "GND" H 4355 3977 50  0000 C CNN
+F 2 "" H 4350 4150 50  0001 C CNN
+F 3 "" H 4350 4150 50  0001 C CNN
+	1    4350 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 3250 4350 3250
+Wire Wire Line
+	4350 3250 4350 3400
+Wire Wire Line
+	4250 3400 4350 3400
+Connection ~ 4350 3400
+Wire Wire Line
+	4350 3400 4350 3550
+Wire Wire Line
+	4050 3550 4350 3550
+Connection ~ 4350 3550
+Wire Wire Line
+	4350 3550 4350 3700
+Wire Wire Line
+	4250 3700 4350 3700
+Connection ~ 4350 3700
+Wire Wire Line
+	4350 3700 4350 3850
+Wire Wire Line
+	4050 3850 4350 3850
+Connection ~ 4350 3850
+Wire Wire Line
+	4350 3850 4350 4000
+Wire Wire Line
+	4250 4000 4350 4000
+Connection ~ 4350 4000
+Wire Wire Line
+	4350 4000 4350 4150
+$Comp
+L pace:ledred D73
+U 1 1 6003DCF5
+P 5250 850
+F 0 "D73" H 5250 750 50  0000 C CNN
+F 1 "ledred" H 5250 994 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 5250 850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 5250 850 50  0001 C CNN
+F 4 "C2286" H 5250 850 50  0001 C CNN "LCSC"
+	1    5250 850 
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:USB_B_Micro J13
+U 1 1 6003DCFB
+P 4700 1150
+F 0 "J13" H 4757 1525 50  0000 C CNN
+F 1 "USB_B_Micro" H 4500 1500 50  0001 L CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 4850 1100 50  0001 C CNN
+F 3 "~" H 4850 1100 50  0001 C CNN
+	1    4700 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L pace:ledred D82
+U 1 1 6003DD02
+P 5450 1000
+F 0 "D82" H 5450 900 50  0000 C CNN
+F 1 "ledred" H 5450 1144 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 5450 1000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 5450 1000 50  0001 C CNN
+F 4 "C2286" H 5450 1000 50  0001 C CNN "LCSC"
+	1    5450 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D74
+U 1 1 6003DD09
+P 5250 1150
+F 0 "D74" H 5250 1050 50  0000 C CNN
+F 1 "ledred" H 5250 1294 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 5250 1150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 5250 1150 50  0001 C CNN
+F 4 "C2286" H 5250 1150 50  0001 C CNN "LCSC"
+	1    5250 1150
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D83
+U 1 1 6003DD10
+P 5450 1300
+F 0 "D83" H 5450 1200 50  0000 C CNN
+F 1 "ledred" H 5450 1444 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 5450 1300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 5450 1300 50  0001 C CNN
+F 4 "C2286" H 5450 1300 50  0001 C CNN "LCSC"
+	1    5450 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D75
+U 1 1 6003DD17
+P 5250 1450
+F 0 "D75" H 5250 1350 50  0000 C CNN
+F 1 "ledred" H 5250 1594 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 5250 1450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 5250 1450 50  0001 C CNN
+F 4 "C2286" H 5250 1450 50  0001 C CNN "LCSC"
+	1    5250 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D84
+U 1 1 6003DD1E
+P 5450 1600
+F 0 "D84" H 5450 1500 50  0000 C CNN
+F 1 "ledred" H 5450 1744 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 5450 1600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 5450 1600 50  0001 C CNN
+F 4 "C2286" H 5450 1600 50  0001 C CNN "LCSC"
+	1    5450 1600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5000 1150 5050 1150
+Wire Wire Line
+	5050 1150 5050 1000
+Wire Wire Line
+	5050 1000 5350 1000
+Wire Wire Line
+	5000 1250 5100 1250
+Wire Wire Line
+	5000 950  5000 850 
+Wire Wire Line
+	5000 850  5150 850 
+Wire Wire Line
+	5100 1250 5100 1150
+Wire Wire Line
+	5100 1150 5150 1150
+Wire Wire Line
+	5000 1350 5150 1350
+Wire Wire Line
+	5150 1350 5150 1300
+Wire Wire Line
+	5150 1300 5350 1300
+Wire Wire Line
+	4700 1550 5000 1550
+Wire Wire Line
+	5000 1550 5000 1450
+Wire Wire Line
+	5000 1450 5150 1450
+Wire Wire Line
+	4600 1550 4600 1600
+Wire Wire Line
+	4600 1600 5350 1600
+$Comp
+L power:GND #PWR?
+U 1 1 6003DD34
+P 5650 1750
+F 0 "#PWR?" H 5650 1500 50  0001 C CNN
+F 1 "GND" H 5655 1577 50  0000 C CNN
+F 2 "" H 5650 1750 50  0001 C CNN
+F 3 "" H 5650 1750 50  0001 C CNN
+	1    5650 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 850  5650 850 
+Wire Wire Line
+	5650 850  5650 1000
+Wire Wire Line
+	5550 1000 5650 1000
+Connection ~ 5650 1000
+Wire Wire Line
+	5650 1000 5650 1150
+Wire Wire Line
+	5350 1150 5650 1150
+Connection ~ 5650 1150
+Wire Wire Line
+	5650 1150 5650 1300
+Wire Wire Line
+	5550 1300 5650 1300
+Connection ~ 5650 1300
+Wire Wire Line
+	5650 1300 5650 1450
+Wire Wire Line
+	5350 1450 5650 1450
+Connection ~ 5650 1450
+Wire Wire Line
+	5650 1450 5650 1600
+Wire Wire Line
+	5550 1600 5650 1600
+Connection ~ 5650 1600
+Wire Wire Line
+	5650 1600 5650 1750
+$Comp
+L pace:ledred D76
+U 1 1 6003DD4C
+P 5250 2050
+F 0 "D76" H 5250 1950 50  0000 C CNN
+F 1 "ledred" H 5250 2194 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 5250 2050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 5250 2050 50  0001 C CNN
+F 4 "C2286" H 5250 2050 50  0001 C CNN "LCSC"
+	1    5250 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:USB_B_Micro J14
+U 1 1 6003DD52
+P 4700 2350
+F 0 "J14" H 4757 2725 50  0000 C CNN
+F 1 "USB_B_Micro" H 4500 2700 50  0001 L CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 4850 2300 50  0001 C CNN
+F 3 "~" H 4850 2300 50  0001 C CNN
+	1    4700 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L pace:ledred D85
+U 1 1 6003DD59
+P 5450 2200
+F 0 "D85" H 5450 2100 50  0000 C CNN
+F 1 "ledred" H 5450 2344 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 5450 2200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 5450 2200 50  0001 C CNN
+F 4 "C2286" H 5450 2200 50  0001 C CNN "LCSC"
+	1    5450 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D77
+U 1 1 6003DD60
+P 5250 2350
+F 0 "D77" H 5250 2250 50  0000 C CNN
+F 1 "ledred" H 5250 2494 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 5250 2350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 5250 2350 50  0001 C CNN
+F 4 "C2286" H 5250 2350 50  0001 C CNN "LCSC"
+	1    5250 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D86
+U 1 1 6003DD67
+P 5450 2500
+F 0 "D86" H 5450 2400 50  0000 C CNN
+F 1 "ledred" H 5450 2644 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 5450 2500 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 5450 2500 50  0001 C CNN
+F 4 "C2286" H 5450 2500 50  0001 C CNN "LCSC"
+	1    5450 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D78
+U 1 1 6003DD6E
+P 5250 2650
+F 0 "D78" H 5250 2550 50  0000 C CNN
+F 1 "ledred" H 5250 2794 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 5250 2650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 5250 2650 50  0001 C CNN
+F 4 "C2286" H 5250 2650 50  0001 C CNN "LCSC"
+	1    5250 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D87
+U 1 1 6003DD75
+P 5450 2800
+F 0 "D87" H 5450 2700 50  0000 C CNN
+F 1 "ledred" H 5450 2944 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 5450 2800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 5450 2800 50  0001 C CNN
+F 4 "C2286" H 5450 2800 50  0001 C CNN "LCSC"
+	1    5450 2800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5000 2350 5050 2350
+Wire Wire Line
+	5050 2350 5050 2200
+Wire Wire Line
+	5050 2200 5350 2200
+Wire Wire Line
+	5000 2450 5100 2450
+Wire Wire Line
+	5000 2150 5000 2050
+Wire Wire Line
+	5000 2050 5150 2050
+Wire Wire Line
+	5100 2450 5100 2350
+Wire Wire Line
+	5100 2350 5150 2350
+Wire Wire Line
+	5000 2550 5150 2550
+Wire Wire Line
+	5150 2550 5150 2500
+Wire Wire Line
+	5150 2500 5350 2500
+Wire Wire Line
+	4700 2750 5000 2750
+Wire Wire Line
+	5000 2750 5000 2650
+Wire Wire Line
+	5000 2650 5150 2650
+Wire Wire Line
+	4600 2750 4600 2800
+Wire Wire Line
+	4600 2800 5350 2800
+$Comp
+L power:GND #PWR?
+U 1 1 6003DD8B
+P 5650 2950
+F 0 "#PWR?" H 5650 2700 50  0001 C CNN
+F 1 "GND" H 5655 2777 50  0000 C CNN
+F 2 "" H 5650 2950 50  0001 C CNN
+F 3 "" H 5650 2950 50  0001 C CNN
+	1    5650 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 2050 5650 2050
+Wire Wire Line
+	5650 2050 5650 2200
+Wire Wire Line
+	5550 2200 5650 2200
+Connection ~ 5650 2200
+Wire Wire Line
+	5650 2200 5650 2350
+Wire Wire Line
+	5350 2350 5650 2350
+Connection ~ 5650 2350
+Wire Wire Line
+	5650 2350 5650 2500
+Wire Wire Line
+	5550 2500 5650 2500
+Connection ~ 5650 2500
+Wire Wire Line
+	5650 2500 5650 2650
+Wire Wire Line
+	5350 2650 5650 2650
+Connection ~ 5650 2650
+Wire Wire Line
+	5650 2650 5650 2800
+Wire Wire Line
+	5550 2800 5650 2800
+Connection ~ 5650 2800
+Wire Wire Line
+	5650 2800 5650 2950
+$Comp
+L pace:ledred D79
+U 1 1 6003DDA3
+P 5250 3250
+F 0 "D79" H 5250 3150 50  0000 C CNN
+F 1 "ledred" H 5250 3394 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 5250 3250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 5250 3250 50  0001 C CNN
+F 4 "C2286" H 5250 3250 50  0001 C CNN "LCSC"
+	1    5250 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:USB_B_Micro J15
+U 1 1 6003DDA9
+P 4700 3550
+F 0 "J15" H 4757 3925 50  0000 C CNN
+F 1 "USB_B_Micro" H 4500 3900 50  0001 L CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 4850 3500 50  0001 C CNN
+F 3 "~" H 4850 3500 50  0001 C CNN
+	1    4700 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L pace:ledred D88
+U 1 1 6003DDB0
+P 5450 3400
+F 0 "D88" H 5450 3300 50  0000 C CNN
+F 1 "ledred" H 5450 3544 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 5450 3400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 5450 3400 50  0001 C CNN
+F 4 "C2286" H 5450 3400 50  0001 C CNN "LCSC"
+	1    5450 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D80
+U 1 1 6003DDB7
+P 5250 3550
+F 0 "D80" H 5250 3450 50  0000 C CNN
+F 1 "ledred" H 5250 3694 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 5250 3550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 5250 3550 50  0001 C CNN
+F 4 "C2286" H 5250 3550 50  0001 C CNN "LCSC"
+	1    5250 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D89
+U 1 1 6003DDBE
+P 5450 3700
+F 0 "D89" H 5450 3600 50  0000 C CNN
+F 1 "ledred" H 5450 3844 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 5450 3700 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 5450 3700 50  0001 C CNN
+F 4 "C2286" H 5450 3700 50  0001 C CNN "LCSC"
+	1    5450 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D81
+U 1 1 6003DDC5
+P 5250 3850
+F 0 "D81" H 5250 3750 50  0000 C CNN
+F 1 "ledred" H 5250 3994 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 5250 3850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 5250 3850 50  0001 C CNN
+F 4 "C2286" H 5250 3850 50  0001 C CNN "LCSC"
+	1    5250 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D90
+U 1 1 6003DDCC
+P 5450 4000
+F 0 "D90" H 5450 3900 50  0000 C CNN
+F 1 "ledred" H 5450 4144 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 5450 4000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 5450 4000 50  0001 C CNN
+F 4 "C2286" H 5450 4000 50  0001 C CNN "LCSC"
+	1    5450 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5000 3550 5050 3550
+Wire Wire Line
+	5050 3550 5050 3400
+Wire Wire Line
+	5050 3400 5350 3400
+Wire Wire Line
+	5000 3650 5100 3650
+Wire Wire Line
+	5000 3350 5000 3250
+Wire Wire Line
+	5000 3250 5150 3250
+Wire Wire Line
+	5100 3650 5100 3550
+Wire Wire Line
+	5100 3550 5150 3550
+Wire Wire Line
+	5000 3750 5150 3750
+Wire Wire Line
+	5150 3750 5150 3700
+Wire Wire Line
+	5150 3700 5350 3700
+Wire Wire Line
+	4700 3950 5000 3950
+Wire Wire Line
+	5000 3950 5000 3850
+Wire Wire Line
+	5000 3850 5150 3850
+Wire Wire Line
+	4600 3950 4600 4000
+Wire Wire Line
+	4600 4000 5350 4000
+$Comp
+L power:GND #PWR?
+U 1 1 6003DDE2
+P 5650 4150
+F 0 "#PWR?" H 5650 3900 50  0001 C CNN
+F 1 "GND" H 5655 3977 50  0000 C CNN
+F 2 "" H 5650 4150 50  0001 C CNN
+F 3 "" H 5650 4150 50  0001 C CNN
+	1    5650 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 3250 5650 3250
+Wire Wire Line
+	5650 3250 5650 3400
+Wire Wire Line
+	5550 3400 5650 3400
+Connection ~ 5650 3400
+Wire Wire Line
+	5650 3400 5650 3550
+Wire Wire Line
+	5350 3550 5650 3550
+Connection ~ 5650 3550
+Wire Wire Line
+	5650 3550 5650 3700
+Wire Wire Line
+	5550 3700 5650 3700
+Connection ~ 5650 3700
+Wire Wire Line
+	5650 3700 5650 3850
+Wire Wire Line
+	5350 3850 5650 3850
+Connection ~ 5650 3850
+Wire Wire Line
+	5650 3850 5650 4000
+Wire Wire Line
+	5550 4000 5650 4000
+Connection ~ 5650 4000
+Wire Wire Line
+	5650 4000 5650 4150
+$Comp
+L pace:74HC164 U2
+U 1 1 60101A12
+P 3900 7050
+F 0 "U2" H 4200 7650 50  0000 C CNN
+F 1 "74HC164" H 4200 7550 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4800 6750 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT164.pdf" H 4800 6750 50  0001 C CNN
+F 4 "C6825" H 3900 7050 50  0001 C CNN "LCSC"
+	1    3900 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L pace:4072 U3
+U 1 1 601681B2
+P 5500 6900
+F 0 "U3" H 5500 7275 50  0000 C CNN
+F 1 "4072" H 5500 7184 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5500 6900 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf" H 5500 6900 50  0001 C CNN
+F 4 "C68527" H 5500 6900 50  0001 C CNN "LCSC"
+	1    5500 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L pace:4072 U3
+U 2 1 601CB694
+P 6300 7200
+F 0 "U3" H 6300 7575 50  0000 C CNN
+F 1 "4072" H 6300 7484 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6300 7200 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf" H 6300 7200 50  0001 C CNN
+F 4 "C68527" H 6300 7200 50  0001 C CNN "LCSC"
+	2    6300 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 4000 9550 4150
+Connection ~ 9550 4000
+Wire Wire Line
+	9450 4000 9550 4000
+Wire Wire Line
+	9550 3850 9550 4000
+Connection ~ 9550 3850
+Wire Wire Line
+	9250 3850 9550 3850
+Wire Wire Line
+	9550 3700 9550 3850
+Connection ~ 9550 3700
+Wire Wire Line
+	9450 3700 9550 3700
+Wire Wire Line
+	9550 3550 9550 3700
+Connection ~ 9550 3550
+Wire Wire Line
+	9250 3550 9550 3550
+Wire Wire Line
+	9550 3400 9550 3550
+Connection ~ 9550 3400
+Wire Wire Line
+	9450 3400 9550 3400
+Wire Wire Line
+	9550 3250 9550 3400
+Wire Wire Line
+	9250 3250 9550 3250
+$Comp
+L power:GND #PWR?
+U 1 1 6003DEE7
+P 9550 4150
+F 0 "#PWR?" H 9550 3900 50  0001 C CNN
+F 1 "GND" H 9555 3977 50  0000 C CNN
+F 2 "" H 9550 4150 50  0001 C CNN
+F 3 "" H 9550 4150 50  0001 C CNN
+	1    9550 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 4000 9250 4000
+Wire Wire Line
+	8500 3950 8500 4000
+Wire Wire Line
+	8900 3850 9050 3850
+Wire Wire Line
+	8900 3950 8900 3850
+Wire Wire Line
+	8600 3950 8900 3950
+Wire Wire Line
+	9050 3700 9250 3700
+Wire Wire Line
+	9050 3750 9050 3700
+Wire Wire Line
+	8900 3750 9050 3750
+Wire Wire Line
+	9000 3550 9050 3550
+Wire Wire Line
+	9000 3650 9000 3550
+Wire Wire Line
+	8900 3250 9050 3250
+Wire Wire Line
+	8900 3350 8900 3250
+Wire Wire Line
+	8900 3650 9000 3650
+Wire Wire Line
+	8950 3400 9250 3400
+Wire Wire Line
+	8950 3550 8950 3400
+Wire Wire Line
+	8900 3550 8950 3550
+$Comp
+L pace:ledred D145
+U 1 1 6003DED1
+P 9350 4000
+F 0 "D145" H 9350 3900 50  0000 C CNN
+F 1 "ledred" H 9350 4144 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 9350 4000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 9350 4000 50  0001 C CNN
+F 4 "C2286" H 9350 4000 50  0001 C CNN "LCSC"
+	1    9350 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D136
+U 1 1 6003DECA
+P 9150 3850
+F 0 "D136" H 9150 3750 50  0000 C CNN
+F 1 "ledred" H 9150 3994 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 9150 3850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 9150 3850 50  0001 C CNN
+F 4 "C2286" H 9150 3850 50  0001 C CNN "LCSC"
+	1    9150 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D144
+U 1 1 6003DEC3
+P 9350 3700
+F 0 "D144" H 9350 3600 50  0000 C CNN
+F 1 "ledred" H 9350 3844 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 9350 3700 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 9350 3700 50  0001 C CNN
+F 4 "C2286" H 9350 3700 50  0001 C CNN "LCSC"
+	1    9350 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D135
+U 1 1 6003DEBC
+P 9150 3550
+F 0 "D135" H 9150 3450 50  0000 C CNN
+F 1 "ledred" H 9150 3694 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 9150 3550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 9150 3550 50  0001 C CNN
+F 4 "C2286" H 9150 3550 50  0001 C CNN "LCSC"
+	1    9150 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D143
+U 1 1 6003DEB5
+P 9350 3400
+F 0 "D143" H 9350 3300 50  0000 C CNN
+F 1 "ledred" H 9350 3544 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 9350 3400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 9350 3400 50  0001 C CNN
+F 4 "C2286" H 9350 3400 50  0001 C CNN "LCSC"
+	1    9350 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:USB_B_Micro J27
+U 1 1 6003DEAE
+P 8600 3550
+F 0 "J27" H 8657 3925 50  0000 C CNN
+F 1 "USB_B_Micro" H 8400 3900 50  0001 L CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 8750 3500 50  0001 C CNN
+F 3 "~" H 8750 3500 50  0001 C CNN
+	1    8600 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L pace:ledred D134
+U 1 1 6003DEA8
+P 9150 3250
+F 0 "D134" H 9150 3150 50  0000 C CNN
+F 1 "ledred" H 9150 3394 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 9150 3250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 9150 3250 50  0001 C CNN
+F 4 "C2286" H 9150 3250 50  0001 C CNN "LCSC"
+	1    9150 3250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9550 2800 9550 2950
+Connection ~ 9550 2800
+Wire Wire Line
+	9450 2800 9550 2800
+Wire Wire Line
+	9550 2650 9550 2800
+Connection ~ 9550 2650
+Wire Wire Line
+	9250 2650 9550 2650
+Wire Wire Line
+	9550 2500 9550 2650
+Connection ~ 9550 2500
+Wire Wire Line
+	9450 2500 9550 2500
+Wire Wire Line
+	9550 2350 9550 2500
+Connection ~ 9550 2350
+Wire Wire Line
+	9250 2350 9550 2350
+Wire Wire Line
+	9550 2200 9550 2350
+Connection ~ 9550 2200
+Wire Wire Line
+	9450 2200 9550 2200
+Wire Wire Line
+	9550 2050 9550 2200
+Wire Wire Line
+	9250 2050 9550 2050
+$Comp
+L power:GND #PWR?
+U 1 1 6003DE90
+P 9550 2950
+F 0 "#PWR?" H 9550 2700 50  0001 C CNN
+F 1 "GND" H 9555 2777 50  0000 C CNN
+F 2 "" H 9550 2950 50  0001 C CNN
+F 3 "" H 9550 2950 50  0001 C CNN
+	1    9550 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 2800 9250 2800
+Wire Wire Line
+	8500 2750 8500 2800
+Wire Wire Line
+	8900 2650 9050 2650
+Wire Wire Line
+	8900 2750 8900 2650
+Wire Wire Line
+	8600 2750 8900 2750
+Wire Wire Line
+	9050 2500 9250 2500
+Wire Wire Line
+	9050 2550 9050 2500
+Wire Wire Line
+	8900 2550 9050 2550
+Wire Wire Line
+	9000 2350 9050 2350
+Wire Wire Line
+	9000 2450 9000 2350
+Wire Wire Line
+	8900 2050 9050 2050
+Wire Wire Line
+	8900 2150 8900 2050
+Wire Wire Line
+	8900 2450 9000 2450
+Wire Wire Line
+	8950 2200 9250 2200
+Wire Wire Line
+	8950 2350 8950 2200
+Wire Wire Line
+	8900 2350 8950 2350
+$Comp
+L pace:ledred D142
+U 1 1 6003DE7A
+P 9350 2800
+F 0 "D142" H 9350 2700 50  0000 C CNN
+F 1 "ledred" H 9350 2944 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 9350 2800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 9350 2800 50  0001 C CNN
+F 4 "C2286" H 9350 2800 50  0001 C CNN "LCSC"
+	1    9350 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D133
+U 1 1 6003DE73
+P 9150 2650
+F 0 "D133" H 9150 2550 50  0000 C CNN
+F 1 "ledred" H 9150 2794 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 9150 2650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 9150 2650 50  0001 C CNN
+F 4 "C2286" H 9150 2650 50  0001 C CNN "LCSC"
+	1    9150 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D141
+U 1 1 6003DE6C
+P 9350 2500
+F 0 "D141" H 9350 2400 50  0000 C CNN
+F 1 "ledred" H 9350 2644 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 9350 2500 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 9350 2500 50  0001 C CNN
+F 4 "C2286" H 9350 2500 50  0001 C CNN "LCSC"
+	1    9350 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D132
+U 1 1 6003DE65
+P 9150 2350
+F 0 "D132" H 9150 2250 50  0000 C CNN
+F 1 "ledred" H 9150 2494 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 9150 2350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 9150 2350 50  0001 C CNN
+F 4 "C2286" H 9150 2350 50  0001 C CNN "LCSC"
+	1    9150 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D140
+U 1 1 6003DE5E
+P 9350 2200
+F 0 "D140" H 9350 2100 50  0000 C CNN
+F 1 "ledred" H 9350 2344 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 9350 2200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 9350 2200 50  0001 C CNN
+F 4 "C2286" H 9350 2200 50  0001 C CNN "LCSC"
+	1    9350 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:USB_B_Micro J26
+U 1 1 6003DE57
+P 8600 2350
+F 0 "J26" H 8657 2725 50  0000 C CNN
+F 1 "USB_B_Micro" H 8400 2700 50  0001 L CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 8750 2300 50  0001 C CNN
+F 3 "~" H 8750 2300 50  0001 C CNN
+	1    8600 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L pace:ledred D131
+U 1 1 6003DE51
+P 9150 2050
+F 0 "D131" H 9150 1950 50  0000 C CNN
+F 1 "ledred" H 9150 2194 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 9150 2050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 9150 2050 50  0001 C CNN
+F 4 "C2286" H 9150 2050 50  0001 C CNN "LCSC"
+	1    9150 2050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9550 1600 9550 1750
+Connection ~ 9550 1600
+Wire Wire Line
+	9450 1600 9550 1600
+Wire Wire Line
+	9550 1450 9550 1600
+Connection ~ 9550 1450
+Wire Wire Line
+	9250 1450 9550 1450
+Wire Wire Line
+	9550 1300 9550 1450
+Connection ~ 9550 1300
+Wire Wire Line
+	9450 1300 9550 1300
+Wire Wire Line
+	9550 1150 9550 1300
+Connection ~ 9550 1150
+Wire Wire Line
+	9250 1150 9550 1150
+Wire Wire Line
+	9550 1000 9550 1150
+Connection ~ 9550 1000
+Wire Wire Line
+	9450 1000 9550 1000
+Wire Wire Line
+	9550 850  9550 1000
+Wire Wire Line
+	9250 850  9550 850 
+$Comp
+L power:GND #PWR?
+U 1 1 6003DE39
+P 9550 1750
+F 0 "#PWR?" H 9550 1500 50  0001 C CNN
+F 1 "GND" H 9555 1577 50  0000 C CNN
+F 2 "" H 9550 1750 50  0001 C CNN
+F 3 "" H 9550 1750 50  0001 C CNN
+	1    9550 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 1600 9250 1600
+Wire Wire Line
+	8500 1550 8500 1600
+Wire Wire Line
+	8900 1450 9050 1450
+Wire Wire Line
+	8900 1550 8900 1450
+Wire Wire Line
+	8600 1550 8900 1550
+Wire Wire Line
+	9050 1300 9250 1300
+Wire Wire Line
+	9050 1350 9050 1300
+Wire Wire Line
+	8900 1350 9050 1350
+Wire Wire Line
+	9000 1150 9050 1150
+Wire Wire Line
+	9000 1250 9000 1150
+Wire Wire Line
+	8900 850  9050 850 
+Wire Wire Line
+	8900 950  8900 850 
+Wire Wire Line
+	8900 1250 9000 1250
+Wire Wire Line
+	8950 1000 9250 1000
+Wire Wire Line
+	8950 1150 8950 1000
+Wire Wire Line
+	8900 1150 8950 1150
+$Comp
+L pace:ledred D139
+U 1 1 6003DE23
+P 9350 1600
+F 0 "D139" H 9350 1500 50  0000 C CNN
+F 1 "ledred" H 9350 1744 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 9350 1600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 9350 1600 50  0001 C CNN
+F 4 "C2286" H 9350 1600 50  0001 C CNN "LCSC"
+	1    9350 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D130
+U 1 1 6003DE1C
+P 9150 1450
+F 0 "D130" H 9150 1350 50  0000 C CNN
+F 1 "ledred" H 9150 1594 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 9150 1450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 9150 1450 50  0001 C CNN
+F 4 "C2286" H 9150 1450 50  0001 C CNN "LCSC"
+	1    9150 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D138
+U 1 1 6003DE15
+P 9350 1300
+F 0 "D138" H 9350 1200 50  0000 C CNN
+F 1 "ledred" H 9350 1444 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 9350 1300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 9350 1300 50  0001 C CNN
+F 4 "C2286" H 9350 1300 50  0001 C CNN "LCSC"
+	1    9350 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D129
+U 1 1 6003DE0E
+P 9150 1150
+F 0 "D129" H 9150 1050 50  0000 C CNN
+F 1 "ledred" H 9150 1294 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 9150 1150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 9150 1150 50  0001 C CNN
+F 4 "C2286" H 9150 1150 50  0001 C CNN "LCSC"
+	1    9150 1150
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D137
+U 1 1 6003DE07
+P 9350 1000
+F 0 "D137" H 9350 900 50  0000 C CNN
+F 1 "ledred" H 9350 1144 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 9350 1000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 9350 1000 50  0001 C CNN
+F 4 "C2286" H 9350 1000 50  0001 C CNN "LCSC"
+	1    9350 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:USB_B_Micro J25
+U 1 1 6003DE00
+P 8600 1150
+F 0 "J25" H 8657 1525 50  0000 C CNN
+F 1 "USB_B_Micro" H 8400 1500 50  0001 L CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 8750 1100 50  0001 C CNN
+F 3 "~" H 8750 1100 50  0001 C CNN
+	1    8600 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L pace:ledred D128
+U 1 1 6003DDFA
+P 9150 850
+F 0 "D128" H 9150 750 50  0000 C CNN
+F 1 "ledred" H 9150 994 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 9150 850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 9150 850 50  0001 C CNN
+F 4 "C2286" H 9150 850 50  0001 C CNN "LCSC"
+	1    9150 850 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8250 4000 8250 4150
+Connection ~ 8250 4000
+Wire Wire Line
+	8150 4000 8250 4000
+Wire Wire Line
+	8250 3850 8250 4000
+Connection ~ 8250 3850
+Wire Wire Line
+	7950 3850 8250 3850
+Wire Wire Line
+	8250 3700 8250 3850
+Connection ~ 8250 3700
+Wire Wire Line
+	8150 3700 8250 3700
+Wire Wire Line
+	8250 3550 8250 3700
+Connection ~ 8250 3550
+Wire Wire Line
+	7950 3550 8250 3550
+Wire Wire Line
+	8250 3400 8250 3550
+Connection ~ 8250 3400
+Wire Wire Line
+	8150 3400 8250 3400
+Wire Wire Line
+	8250 3250 8250 3400
+Wire Wire Line
+	7950 3250 8250 3250
+$Comp
+L power:GND #PWR?
+U 1 1 5FFD6F7F
+P 8250 4150
+F 0 "#PWR?" H 8250 3900 50  0001 C CNN
+F 1 "GND" H 8255 3977 50  0000 C CNN
+F 2 "" H 8250 4150 50  0001 C CNN
+F 3 "" H 8250 4150 50  0001 C CNN
+	1    8250 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 4000 7950 4000
+Wire Wire Line
+	7200 3950 7200 4000
+Wire Wire Line
+	7600 3850 7750 3850
+Wire Wire Line
+	7600 3950 7600 3850
+Wire Wire Line
+	7300 3950 7600 3950
+Wire Wire Line
+	7750 3700 7950 3700
+Wire Wire Line
+	7750 3750 7750 3700
+Wire Wire Line
+	7600 3750 7750 3750
+Wire Wire Line
+	7700 3550 7750 3550
+Wire Wire Line
+	7700 3650 7700 3550
+Wire Wire Line
+	7600 3250 7750 3250
+Wire Wire Line
+	7600 3350 7600 3250
+Wire Wire Line
+	7600 3650 7700 3650
+Wire Wire Line
+	7650 3400 7950 3400
+Wire Wire Line
+	7650 3550 7650 3400
+Wire Wire Line
+	7600 3550 7650 3550
+$Comp
+L pace:ledred D127
+U 1 1 5FFD6F69
+P 8050 4000
+F 0 "D127" H 8050 3900 50  0000 C CNN
+F 1 "ledred" H 8050 4144 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 8050 4000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 8050 4000 50  0001 C CNN
+F 4 "C2286" H 8050 4000 50  0001 C CNN "LCSC"
+	1    8050 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D118
+U 1 1 5FFD6F62
+P 7850 3850
+F 0 "D118" H 7850 3750 50  0000 C CNN
+F 1 "ledred" H 7850 3994 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 7850 3850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 7850 3850 50  0001 C CNN
+F 4 "C2286" H 7850 3850 50  0001 C CNN "LCSC"
+	1    7850 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D126
+U 1 1 5FFD6F5B
+P 8050 3700
+F 0 "D126" H 8050 3600 50  0000 C CNN
+F 1 "ledred" H 8050 3844 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 8050 3700 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 8050 3700 50  0001 C CNN
+F 4 "C2286" H 8050 3700 50  0001 C CNN "LCSC"
+	1    8050 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D117
+U 1 1 5FFD6F54
+P 7850 3550
+F 0 "D117" H 7850 3450 50  0000 C CNN
+F 1 "ledred" H 7850 3694 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 7850 3550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 7850 3550 50  0001 C CNN
+F 4 "C2286" H 7850 3550 50  0001 C CNN "LCSC"
+	1    7850 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D125
+U 1 1 5FFD6F4D
+P 8050 3400
+F 0 "D125" H 8050 3300 50  0000 C CNN
+F 1 "ledred" H 8050 3544 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 8050 3400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 8050 3400 50  0001 C CNN
+F 4 "C2286" H 8050 3400 50  0001 C CNN "LCSC"
+	1    8050 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:USB_B_Micro J23
+U 1 1 5FFD6F46
+P 7300 3550
+F 0 "J23" H 7357 3925 50  0000 C CNN
+F 1 "USB_B_Micro" H 7100 3900 50  0001 L CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 7450 3500 50  0001 C CNN
+F 3 "~" H 7450 3500 50  0001 C CNN
+	1    7300 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L pace:ledred D116
+U 1 1 5FFD6F40
+P 7850 3250
+F 0 "D116" H 7850 3150 50  0000 C CNN
+F 1 "ledred" H 7850 3394 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 7850 3250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 7850 3250 50  0001 C CNN
+F 4 "C2286" H 7850 3250 50  0001 C CNN "LCSC"
+	1    7850 3250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8250 2800 8250 2950
+Connection ~ 8250 2800
+Wire Wire Line
+	8150 2800 8250 2800
+Wire Wire Line
+	8250 2650 8250 2800
+Connection ~ 8250 2650
+Wire Wire Line
+	7950 2650 8250 2650
+Wire Wire Line
+	8250 2500 8250 2650
+Connection ~ 8250 2500
+Wire Wire Line
+	8150 2500 8250 2500
+Wire Wire Line
+	8250 2350 8250 2500
+Connection ~ 8250 2350
+Wire Wire Line
+	7950 2350 8250 2350
+Wire Wire Line
+	8250 2200 8250 2350
+Connection ~ 8250 2200
+Wire Wire Line
+	8150 2200 8250 2200
+Wire Wire Line
+	8250 2050 8250 2200
+Wire Wire Line
+	7950 2050 8250 2050
+$Comp
+L power:GND #PWR?
+U 1 1 5FFA32DA
+P 8250 2950
+F 0 "#PWR?" H 8250 2700 50  0001 C CNN
+F 1 "GND" H 8255 2777 50  0000 C CNN
+F 2 "" H 8250 2950 50  0001 C CNN
+F 3 "" H 8250 2950 50  0001 C CNN
+	1    8250 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 2800 7950 2800
+Wire Wire Line
+	7200 2750 7200 2800
+Wire Wire Line
+	7600 2650 7750 2650
+Wire Wire Line
+	7600 2750 7600 2650
+Wire Wire Line
+	7300 2750 7600 2750
+Wire Wire Line
+	7750 2500 7950 2500
+Wire Wire Line
+	7750 2550 7750 2500
+Wire Wire Line
+	7600 2550 7750 2550
+Wire Wire Line
+	7700 2350 7750 2350
+Wire Wire Line
+	7700 2450 7700 2350
+Wire Wire Line
+	7600 2050 7750 2050
+Wire Wire Line
+	7600 2150 7600 2050
+Wire Wire Line
+	7600 2450 7700 2450
+Wire Wire Line
+	7650 2200 7950 2200
+Wire Wire Line
+	7650 2350 7650 2200
+Wire Wire Line
+	7600 2350 7650 2350
+$Comp
+L pace:ledred D124
+U 1 1 5FFA32C4
+P 8050 2800
+F 0 "D124" H 8050 2700 50  0000 C CNN
+F 1 "ledred" H 8050 2944 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 8050 2800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 8050 2800 50  0001 C CNN
+F 4 "C2286" H 8050 2800 50  0001 C CNN "LCSC"
+	1    8050 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D115
+U 1 1 5FFA32BD
+P 7850 2650
+F 0 "D115" H 7850 2550 50  0000 C CNN
+F 1 "ledred" H 7850 2794 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 7850 2650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 7850 2650 50  0001 C CNN
+F 4 "C2286" H 7850 2650 50  0001 C CNN "LCSC"
+	1    7850 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D123
+U 1 1 5FFA32B6
+P 8050 2500
+F 0 "D123" H 8050 2400 50  0000 C CNN
+F 1 "ledred" H 8050 2644 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 8050 2500 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 8050 2500 50  0001 C CNN
+F 4 "C2286" H 8050 2500 50  0001 C CNN "LCSC"
+	1    8050 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D114
+U 1 1 5FFA32AF
+P 7850 2350
+F 0 "D114" H 7850 2250 50  0000 C CNN
+F 1 "ledred" H 7850 2494 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 7850 2350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 7850 2350 50  0001 C CNN
+F 4 "C2286" H 7850 2350 50  0001 C CNN "LCSC"
+	1    7850 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D122
+U 1 1 5FFA32A8
+P 8050 2200
+F 0 "D122" H 8050 2100 50  0000 C CNN
+F 1 "ledred" H 8050 2344 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 8050 2200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 8050 2200 50  0001 C CNN
+F 4 "C2286" H 8050 2200 50  0001 C CNN "LCSC"
+	1    8050 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:USB_B_Micro J22
+U 1 1 5FFA32A1
+P 7300 2350
+F 0 "J22" H 7357 2725 50  0000 C CNN
+F 1 "USB_B_Micro" H 7100 2700 50  0001 L CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 7450 2300 50  0001 C CNN
+F 3 "~" H 7450 2300 50  0001 C CNN
+	1    7300 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L pace:ledred D113
+U 1 1 5FFA329B
+P 7850 2050
+F 0 "D113" H 7850 1950 50  0000 C CNN
+F 1 "ledred" H 7850 2194 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 7850 2050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 7850 2050 50  0001 C CNN
+F 4 "C2286" H 7850 2050 50  0001 C CNN "LCSC"
+	1    7850 2050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8250 1600 8250 1750
+Connection ~ 8250 1600
+Wire Wire Line
+	8150 1600 8250 1600
+Wire Wire Line
+	8250 1450 8250 1600
+Connection ~ 8250 1450
+Wire Wire Line
+	7950 1450 8250 1450
+Wire Wire Line
+	8250 1300 8250 1450
+Connection ~ 8250 1300
+Wire Wire Line
+	8150 1300 8250 1300
+Wire Wire Line
+	8250 1150 8250 1300
+Connection ~ 8250 1150
+Wire Wire Line
+	7950 1150 8250 1150
+Wire Wire Line
+	8250 1000 8250 1150
+Connection ~ 8250 1000
+Wire Wire Line
+	8150 1000 8250 1000
+Wire Wire Line
+	8250 850  8250 1000
+Wire Wire Line
+	7950 850  8250 850 
+$Comp
+L power:GND #PWR?
+U 1 1 5FF73D1D
+P 8250 1750
+F 0 "#PWR?" H 8250 1500 50  0001 C CNN
+F 1 "GND" H 8255 1577 50  0000 C CNN
+F 2 "" H 8250 1750 50  0001 C CNN
+F 3 "" H 8250 1750 50  0001 C CNN
+	1    8250 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 1600 7950 1600
+Wire Wire Line
+	7200 1550 7200 1600
+Wire Wire Line
+	7600 1450 7750 1450
+Wire Wire Line
+	7600 1550 7600 1450
+Wire Wire Line
+	7300 1550 7600 1550
+Wire Wire Line
+	7750 1300 7950 1300
+Wire Wire Line
+	7750 1350 7750 1300
+Wire Wire Line
+	7600 1350 7750 1350
+Wire Wire Line
+	7700 1150 7750 1150
+Wire Wire Line
+	7700 1250 7700 1150
+Wire Wire Line
+	7600 850  7750 850 
+Wire Wire Line
+	7600 950  7600 850 
+Wire Wire Line
+	7600 1250 7700 1250
+Wire Wire Line
+	7650 1000 7950 1000
+Wire Wire Line
+	7650 1150 7650 1000
+Wire Wire Line
+	7600 1150 7650 1150
+$Comp
+L pace:ledred D121
+U 1 1 5FF73D07
+P 8050 1600
+F 0 "D121" H 8050 1500 50  0000 C CNN
+F 1 "ledred" H 8050 1744 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 8050 1600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 8050 1600 50  0001 C CNN
+F 4 "C2286" H 8050 1600 50  0001 C CNN "LCSC"
+	1    8050 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D112
+U 1 1 5FF73D00
+P 7850 1450
+F 0 "D112" H 7850 1350 50  0000 C CNN
+F 1 "ledred" H 7850 1594 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 7850 1450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 7850 1450 50  0001 C CNN
+F 4 "C2286" H 7850 1450 50  0001 C CNN "LCSC"
+	1    7850 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D120
+U 1 1 5FF73CF9
+P 8050 1300
+F 0 "D120" H 8050 1200 50  0000 C CNN
+F 1 "ledred" H 8050 1444 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 8050 1300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 8050 1300 50  0001 C CNN
+F 4 "C2286" H 8050 1300 50  0001 C CNN "LCSC"
+	1    8050 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D111
+U 1 1 5FF73CF2
+P 7850 1150
+F 0 "D111" H 7850 1050 50  0000 C CNN
+F 1 "ledred" H 7850 1294 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 7850 1150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 7850 1150 50  0001 C CNN
+F 4 "C2286" H 7850 1150 50  0001 C CNN "LCSC"
+	1    7850 1150
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D119
+U 1 1 5FF73CEB
+P 8050 1000
+F 0 "D119" H 8050 900 50  0000 C CNN
+F 1 "ledred" H 8050 1144 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 8050 1000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 8050 1000 50  0001 C CNN
+F 4 "C2286" H 8050 1000 50  0001 C CNN "LCSC"
+	1    8050 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:USB_B_Micro J21
+U 1 1 5FF73CE4
+P 7300 1150
+F 0 "J21" H 7357 1525 50  0000 C CNN
+F 1 "USB_B_Micro" H 7100 1500 50  0001 L CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 7450 1100 50  0001 C CNN
+F 3 "~" H 7450 1100 50  0001 C CNN
+	1    7300 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L pace:ledred D110
+U 1 1 5FF73CDE
+P 7850 850
+F 0 "D110" H 7850 750 50  0000 C CNN
+F 1 "ledred" H 7850 994 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 7850 850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 7850 850 50  0001 C CNN
+F 4 "C2286" H 7850 850 50  0001 C CNN "LCSC"
+	1    7850 850 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6950 4000 6950 4150
+Connection ~ 6950 4000
+Wire Wire Line
+	6850 4000 6950 4000
+Wire Wire Line
+	6950 3850 6950 4000
+Connection ~ 6950 3850
+Wire Wire Line
+	6650 3850 6950 3850
+Wire Wire Line
+	6950 3700 6950 3850
+Connection ~ 6950 3700
+Wire Wire Line
+	6850 3700 6950 3700
+Wire Wire Line
+	6950 3550 6950 3700
+Connection ~ 6950 3550
+Wire Wire Line
+	6650 3550 6950 3550
+Wire Wire Line
+	6950 3400 6950 3550
+Connection ~ 6950 3400
+Wire Wire Line
+	6850 3400 6950 3400
+Wire Wire Line
+	6950 3250 6950 3400
+Wire Wire Line
+	6650 3250 6950 3250
+$Comp
+L power:GND #PWR?
+U 1 1 5FEE0A5C
+P 6950 4150
+F 0 "#PWR?" H 6950 3900 50  0001 C CNN
+F 1 "GND" H 6955 3977 50  0000 C CNN
+F 2 "" H 6950 4150 50  0001 C CNN
+F 3 "" H 6950 4150 50  0001 C CNN
+	1    6950 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 4000 6650 4000
+Wire Wire Line
+	5900 3950 5900 4000
+Wire Wire Line
+	6300 3850 6450 3850
+Wire Wire Line
+	6300 3950 6300 3850
+Wire Wire Line
+	6000 3950 6300 3950
+Wire Wire Line
+	6450 3700 6650 3700
+Wire Wire Line
+	6450 3750 6450 3700
+Wire Wire Line
+	6300 3750 6450 3750
+Wire Wire Line
+	6400 3550 6450 3550
+Wire Wire Line
+	6400 3650 6400 3550
+Wire Wire Line
+	6300 3250 6450 3250
+Wire Wire Line
+	6300 3350 6300 3250
+Wire Wire Line
+	6300 3650 6400 3650
+Wire Wire Line
+	6350 3400 6650 3400
+Wire Wire Line
+	6350 3550 6350 3400
+Wire Wire Line
+	6300 3550 6350 3550
+$Comp
+L pace:ledred D108
+U 1 1 5FEE0A46
+P 6750 4000
+F 0 "D108" H 6750 3900 50  0000 C CNN
+F 1 "ledred" H 6750 4144 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 6750 4000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 6750 4000 50  0001 C CNN
+F 4 "C2286" H 6750 4000 50  0001 C CNN "LCSC"
+	1    6750 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D99
+U 1 1 5FEE0A3F
+P 6550 3850
+F 0 "D99" H 6550 3750 50  0000 C CNN
+F 1 "ledred" H 6550 3994 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 6550 3850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 6550 3850 50  0001 C CNN
+F 4 "C2286" H 6550 3850 50  0001 C CNN "LCSC"
+	1    6550 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D107
+U 1 1 5FEE0A38
+P 6750 3700
+F 0 "D107" H 6750 3600 50  0000 C CNN
+F 1 "ledred" H 6750 3844 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 6750 3700 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 6750 3700 50  0001 C CNN
+F 4 "C2286" H 6750 3700 50  0001 C CNN "LCSC"
+	1    6750 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D98
+U 1 1 5FEE0A31
+P 6550 3550
+F 0 "D98" H 6550 3450 50  0000 C CNN
+F 1 "ledred" H 6550 3694 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 6550 3550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 6550 3550 50  0001 C CNN
+F 4 "C2286" H 6550 3550 50  0001 C CNN "LCSC"
+	1    6550 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D106
+U 1 1 5FEE0A2A
+P 6750 3400
+F 0 "D106" H 6750 3300 50  0000 C CNN
+F 1 "ledred" H 6750 3544 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 6750 3400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 6750 3400 50  0001 C CNN
+F 4 "C2286" H 6750 3400 50  0001 C CNN "LCSC"
+	1    6750 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:USB_B_Micro J18
+U 1 1 5FEE0A23
+P 6000 3550
+F 0 "J18" H 6057 3925 50  0000 C CNN
+F 1 "USB_B_Micro" H 5800 3900 50  0001 L CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 6150 3500 50  0001 C CNN
+F 3 "~" H 6150 3500 50  0001 C CNN
+	1    6000 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L pace:ledred D97
+U 1 1 5FEE0A1D
+P 6550 3250
+F 0 "D97" H 6550 3150 50  0000 C CNN
+F 1 "ledred" H 6550 3394 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 6550 3250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 6550 3250 50  0001 C CNN
+F 4 "C2286" H 6550 3250 50  0001 C CNN "LCSC"
+	1    6550 3250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6950 2800 6950 2950
+Connection ~ 6950 2800
+Wire Wire Line
+	6850 2800 6950 2800
+Wire Wire Line
+	6950 2650 6950 2800
+Connection ~ 6950 2650
+Wire Wire Line
+	6650 2650 6950 2650
+Wire Wire Line
+	6950 2500 6950 2650
+Connection ~ 6950 2500
+Wire Wire Line
+	6850 2500 6950 2500
+Wire Wire Line
+	6950 2350 6950 2500
+Connection ~ 6950 2350
+Wire Wire Line
+	6650 2350 6950 2350
+Wire Wire Line
+	6950 2200 6950 2350
+Connection ~ 6950 2200
+Wire Wire Line
+	6850 2200 6950 2200
+Wire Wire Line
+	6950 2050 6950 2200
+Wire Wire Line
+	6650 2050 6950 2050
+$Comp
+L power:GND #PWR?
+U 1 1 5FEC96B1
+P 6950 2950
+F 0 "#PWR?" H 6950 2700 50  0001 C CNN
+F 1 "GND" H 6955 2777 50  0000 C CNN
+F 2 "" H 6950 2950 50  0001 C CNN
+F 3 "" H 6950 2950 50  0001 C CNN
+	1    6950 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 2800 6650 2800
+Wire Wire Line
+	5900 2750 5900 2800
+Wire Wire Line
+	6300 2650 6450 2650
+Wire Wire Line
+	6300 2750 6300 2650
+Wire Wire Line
+	6000 2750 6300 2750
+Wire Wire Line
+	6450 2500 6650 2500
+Wire Wire Line
+	6450 2550 6450 2500
+Wire Wire Line
+	6300 2550 6450 2550
+Wire Wire Line
+	6400 2350 6450 2350
+Wire Wire Line
+	6400 2450 6400 2350
+Wire Wire Line
+	6300 2050 6450 2050
+Wire Wire Line
+	6300 2150 6300 2050
+Wire Wire Line
+	6300 2450 6400 2450
+Wire Wire Line
+	6350 2200 6650 2200
+Wire Wire Line
+	6350 2350 6350 2200
+Wire Wire Line
+	6300 2350 6350 2350
+$Comp
+L pace:ledred D105
+U 1 1 5FEC969B
+P 6750 2800
+F 0 "D105" H 6750 2700 50  0000 C CNN
+F 1 "ledred" H 6750 2944 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 6750 2800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 6750 2800 50  0001 C CNN
+F 4 "C2286" H 6750 2800 50  0001 C CNN "LCSC"
+	1    6750 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D96
+U 1 1 5FEC9694
+P 6550 2650
+F 0 "D96" H 6550 2550 50  0000 C CNN
+F 1 "ledred" H 6550 2794 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 6550 2650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 6550 2650 50  0001 C CNN
+F 4 "C2286" H 6550 2650 50  0001 C CNN "LCSC"
+	1    6550 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D104
+U 1 1 5FEC968D
+P 6750 2500
+F 0 "D104" H 6750 2400 50  0000 C CNN
+F 1 "ledred" H 6750 2644 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 6750 2500 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 6750 2500 50  0001 C CNN
+F 4 "C2286" H 6750 2500 50  0001 C CNN "LCSC"
+	1    6750 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D95
+U 1 1 5FEC9686
+P 6550 2350
+F 0 "D95" H 6550 2250 50  0000 C CNN
+F 1 "ledred" H 6550 2494 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 6550 2350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 6550 2350 50  0001 C CNN
+F 4 "C2286" H 6550 2350 50  0001 C CNN "LCSC"
+	1    6550 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D103
+U 1 1 5FEC967F
+P 6750 2200
+F 0 "D103" H 6750 2100 50  0000 C CNN
+F 1 "ledred" H 6750 2344 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 6750 2200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 6750 2200 50  0001 C CNN
+F 4 "C2286" H 6750 2200 50  0001 C CNN "LCSC"
+	1    6750 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:USB_B_Micro J17
+U 1 1 5FEC9678
+P 6000 2350
+F 0 "J17" H 6057 2725 50  0000 C CNN
+F 1 "USB_B_Micro" H 5800 2700 50  0001 L CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 6150 2300 50  0001 C CNN
+F 3 "~" H 6150 2300 50  0001 C CNN
+	1    6000 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L pace:ledred D94
+U 1 1 5FEC9672
+P 6550 2050
+F 0 "D94" H 6550 1950 50  0000 C CNN
+F 1 "ledred" H 6550 2194 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 6550 2050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 6550 2050 50  0001 C CNN
+F 4 "C2286" H 6550 2050 50  0001 C CNN "LCSC"
+	1    6550 2050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6950 1600 6950 1750
+Connection ~ 6950 1600
+Wire Wire Line
+	6850 1600 6950 1600
+Wire Wire Line
+	6950 1450 6950 1600
+Connection ~ 6950 1450
+Wire Wire Line
+	6650 1450 6950 1450
+Wire Wire Line
+	6950 1300 6950 1450
+Connection ~ 6950 1300
+Wire Wire Line
+	6850 1300 6950 1300
+Wire Wire Line
+	6950 1150 6950 1300
+Connection ~ 6950 1150
+Wire Wire Line
+	6650 1150 6950 1150
+Wire Wire Line
+	6950 1000 6950 1150
+Connection ~ 6950 1000
+Wire Wire Line
+	6850 1000 6950 1000
+Wire Wire Line
+	6950 850  6950 1000
+Wire Wire Line
+	6650 850  6950 850 
+$Comp
+L power:GND #PWR?
+U 1 1 5FEB6087
+P 6950 1750
+F 0 "#PWR?" H 6950 1500 50  0001 C CNN
+F 1 "GND" H 6955 1577 50  0000 C CNN
+F 2 "" H 6950 1750 50  0001 C CNN
+F 3 "" H 6950 1750 50  0001 C CNN
+	1    6950 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 1600 6650 1600
+Wire Wire Line
+	5900 1550 5900 1600
+Wire Wire Line
+	6300 1450 6450 1450
+Wire Wire Line
+	6300 1550 6300 1450
+Wire Wire Line
+	6000 1550 6300 1550
+Wire Wire Line
+	6450 1300 6650 1300
+Wire Wire Line
+	6450 1350 6450 1300
+Wire Wire Line
+	6300 1350 6450 1350
+Wire Wire Line
+	6400 1150 6450 1150
+Wire Wire Line
+	6400 1250 6400 1150
+Wire Wire Line
+	6300 850  6450 850 
+Wire Wire Line
+	6300 950  6300 850 
+Wire Wire Line
+	6300 1250 6400 1250
+Wire Wire Line
+	6350 1000 6650 1000
+Wire Wire Line
+	6350 1150 6350 1000
+Wire Wire Line
+	6300 1150 6350 1150
+$Comp
+L pace:ledred D102
+U 1 1 5FEB6071
+P 6750 1600
+F 0 "D102" H 6750 1500 50  0000 C CNN
+F 1 "ledred" H 6750 1744 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 6750 1600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 6750 1600 50  0001 C CNN
+F 4 "C2286" H 6750 1600 50  0001 C CNN "LCSC"
+	1    6750 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D93
+U 1 1 5FEB606A
+P 6550 1450
+F 0 "D93" H 6550 1350 50  0000 C CNN
+F 1 "ledred" H 6550 1594 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 6550 1450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 6550 1450 50  0001 C CNN
+F 4 "C2286" H 6550 1450 50  0001 C CNN "LCSC"
+	1    6550 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D101
+U 1 1 5FEB6063
+P 6750 1300
+F 0 "D101" H 6750 1200 50  0000 C CNN
+F 1 "ledred" H 6750 1444 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 6750 1300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 6750 1300 50  0001 C CNN
+F 4 "C2286" H 6750 1300 50  0001 C CNN "LCSC"
+	1    6750 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D92
+U 1 1 5FEB605C
+P 6550 1150
+F 0 "D92" H 6550 1050 50  0000 C CNN
+F 1 "ledred" H 6550 1294 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 6550 1150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 6550 1150 50  0001 C CNN
+F 4 "C2286" H 6550 1150 50  0001 C CNN "LCSC"
+	1    6550 1150
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:ledred D100
+U 1 1 5FEB6055
+P 6750 1000
+F 0 "D100" H 6750 900 50  0000 C CNN
+F 1 "ledred" H 6750 1144 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 6750 1000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 6750 1000 50  0001 C CNN
+F 4 "C2286" H 6750 1000 50  0001 C CNN "LCSC"
+	1    6750 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L pace:USB_B_Micro J16
+U 1 1 5FEB604E
+P 6000 1150
+F 0 "J16" H 6057 1525 50  0000 C CNN
+F 1 "USB_B_Micro" H 5800 1500 50  0001 L CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 6150 1100 50  0001 C CNN
+F 3 "~" H 6150 1100 50  0001 C CNN
+	1    6000 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L pace:ledred D91
+U 1 1 5FEB6048
+P 6550 850
+F 0 "D91" H 6550 750 50  0000 C CNN
+F 1 "ledred" H 6550 994 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 6550 850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 6550 850 50  0001 C CNN
+F 4 "C2286" H 6550 850 50  0001 C CNN "LCSC"
+	1    6550 850 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4300 6750 4450 6750
+Wire Wire Line
+	4300 6850 4550 6850
+Wire Wire Line
+	4300 6950 4650 6950
+$Comp
+L power:GND #PWR?
+U 1 1 60A63F7D
+P 5900 7450
+F 0 "#PWR?" H 5900 7200 50  0001 C CNN
+F 1 "GND" H 5905 7277 50  0000 C CNN
+F 2 "" H 5900 7450 50  0001 C CNN
+F 3 "" H 5900 7450 50  0001 C CNN
+	1    5900 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 6900 5900 6900
+Wire Wire Line
+	5900 6900 5900 7050
+Wire Wire Line
+	5900 7050 6000 7050
+Wire Wire Line
+	6000 7350 5900 7350
+Wire Wire Line
+	5900 7350 5900 7450
+NoConn ~ 4300 7350
+NoConn ~ 4300 7450
+$Comp
+L power:GND #PWR?
+U 1 1 613C9910
+P 3900 7650
+F 0 "#PWR?" H 3900 7400 50  0001 C CNN
+F 1 "GND" H 3905 7477 50  0000 C CNN
+F 2 "" H 3900 7650 50  0001 C CNN
+F 3 "" H 3900 7650 50  0001 C CNN
+	1    3900 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L pace:74HC04 U4
+U 1 1 5FEAB81C
+P 7050 7200
+F 0 "U4" H 7050 7517 50  0000 C CNN
+F 1 "74HC04" H 7050 7426 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7050 7200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 7050 7200 50  0001 C CNN
+F 4 "C5590" H 7050 7200 50  0001 C CNN "LCSC"
+	1    7050 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 7200 6750 7200
+Wire Wire Line
+	3150 7050 3500 7050
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FFEA445
+P 3900 6550
+F 0 "#PWR?" H 3900 6400 50  0001 C CNN
+F 1 "+3.3V" H 3915 6723 50  0000 C CNN
+F 2 "" H 3900 6550 50  0001 C CNN
+F 3 "" H 3900 6550 50  0001 C CNN
+	1    3900 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FFFA544
+P 3350 6600
+F 0 "#PWR?" H 3350 6450 50  0001 C CNN
+F 1 "+3.3V" H 3365 6773 50  0000 C CNN
+F 2 "" H 3350 6600 50  0001 C CNN
+F 3 "" H 3350 6600 50  0001 C CNN
+	1    3350 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 6850 3350 6850
+Wire Wire Line
+	3350 6850 3350 6600
+Wire Wire Line
+	3500 7150 3150 7150
+Wire Wire Line
+	3150 7150 3150 7050
+Text GLabel 5050 5650 2    50   Input ~ 0
+TEST_VBUS
+Text GLabel 5050 5800 2    50   Input ~ 0
+TEST_DP
+Text GLabel 5050 5950 2    50   Input ~ 0
+TEST_DM
+Text GLabel 5050 6250 2    50   Input ~ 0
+TEST_GND
+Text GLabel 5050 6400 2    50   Input ~ 0
+TEST_SHIELD
+Wire Wire Line
+	5050 5650 4450 5650
+Wire Wire Line
+	4450 5650 4450 6750
+Connection ~ 4450 6750
+Wire Wire Line
+	4450 6750 5200 6750
+Wire Wire Line
+	5050 5800 4550 5800
+Wire Wire Line
+	4550 5800 4550 6850
+Connection ~ 4550 6850
+Wire Wire Line
+	4550 6850 5200 6850
+Wire Wire Line
+	5050 5950 4650 5950
+Wire Wire Line
+	4650 5950 4650 6950
+Connection ~ 4650 6950
+Wire Wire Line
+	4650 6950 5200 6950
+Wire Wire Line
+	4300 7250 4950 7250
+Wire Wire Line
+	4300 7150 4850 7150
+Wire Wire Line
+	5050 6250 4850 6250
+Wire Wire Line
+	4850 6250 4850 7150
+Connection ~ 4850 7150
+Wire Wire Line
+	4850 7150 6000 7150
+Wire Wire Line
+	5050 6400 4950 6400
+Wire Wire Line
+	4950 6400 4950 7250
+Connection ~ 4950 7250
+Wire Wire Line
+	4950 7250 6000 7250
+$Comp
+L pace:USB_A J24
+U 1 1 60DD67E4
+P 7900 6900
+F 0 "J24" H 7957 7367 50  0000 C CNN
+F 1 "USB_A" H 7957 7276 50  0000 C CNN
+F 2 "Connector_USB:USB_A_Stewart_SS-52100-001_Horizontal" H 8050 6850 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/on-shore-technology-inc/USB-A1HSB6/2677751" H 8050 6850 50  0001 C CNN
+	1    7900 6900
+	1    0    0    -1  
+$EndComp
+Text GLabel 8200 6700 2    50   Input ~ 0
+TEST_VBUS
+Text GLabel 8200 7000 2    50   Input ~ 0
+TEST_DP
+Text GLabel 8200 6900 2    50   Input ~ 0
+TEST_DM
+Text GLabel 7900 7300 3    50   Input ~ 0
+TEST_GND
+Text GLabel 7800 7300 3    50   Input ~ 0
+TEST_SHIELD
+Text Notes 5700 6100 0    50   ~ 0
+what do do about ID?\n
+Wire Wire Line
+	7350 7200 7350 7900
+Wire Wire Line
+	7350 7900 3150 7900
+Wire Wire Line
+	3150 7900 3150 7150
+Connection ~ 3150 7150
+Wire Wire Line
+	4300 7050 5200 7050
+$Comp
+L pace:555 U1
+U 1 1 6102127F
+P 1700 7050
+F 0 "U1" H 1950 7550 50  0000 C CNN
+F 1 "555" H 1950 7450 50  0000 C CNN
+F 2 "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm" H 1700 7050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm555.pdf" H 1700 7050 50  0001 C CNN
+F 4 "C398924" H 1700 7050 50  0001 C CNN "LCSC"
+	1    1700 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 610D5483
+P 1700 7450
+F 0 "#PWR?" H 1700 7200 50  0001 C CNN
+F 1 "GND" H 1705 7277 50  0000 C CNN
+F 2 "" H 1700 7450 50  0001 C CNN
+F 3 "" H 1700 7450 50  0001 C CNN
+	1    1700 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L pace:10u C5
+U 1 1 610D5F4A
+P 2400 7500
+F 0 "C5" H 2492 7546 50  0000 L CNN
+F 1 "10u" H 2492 7455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2400 7500 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.pdf" H 2400 7500 50  0001 C CNN
+F 4 "C15525" H 2400 7500 50  0001 C CNN "LCSC"
+	1    2400 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L pace:10u C2
+U 1 1 610D649D
+P 650 5800
+F 0 "C2" H 742 5846 50  0000 L CNN
+F 1 "10u" H 742 5755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 650 5800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.pdf" H 650 5800 50  0001 C CNN
+F 4 "C15525" H 650 5800 50  0001 C CNN "LCSC"
+	1    650  5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L pace:100n C3
+U 1 1 610D7025
+P 1000 5800
+F 0 "C3" H 1092 5846 50  0000 L CNN
+F 1 "100n" H 1092 5755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1000 5800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf" H 1000 5800 50  0001 C CNN
+F 4 "C1525" H 1000 5800 50  0001 C CNN "LCSC"
+	1    1000 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L pace:10k R2
+U 1 1 610D7A9C
+P 2400 7150
+F 0 "R2" H 2459 7196 50  0000 L CNN
+F 1 "10k" H 2459 7105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2400 7150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 2400 7150 50  0001 C CNN
+F 4 "C25744" H 2400 7150 50  0001 C CNN "LCSC"
+	1    2400 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L pace:10k R1
+U 1 1 610D7FEF
+P 2400 6600
+F 0 "R1" H 2459 6646 50  0000 L CNN
+F 1 "10k" H 2459 6555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2400 6600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 2400 6600 50  0001 C CNN
+F 4 "C25744" H 2400 6600 50  0001 C CNN "LCSC"
+	1    2400 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 6850 2900 6850
+Wire Wire Line
+	2900 6850 2900 7350
+Wire Wire Line
+	2900 7350 3500 7350
+Wire Wire Line
+	2400 7400 2400 7250
+Wire Wire Line
+	2400 7250 2250 7250
+Connection ~ 2400 7250
+Wire Wire Line
+	2200 7050 2400 7050
+Wire Wire Line
+	2400 7050 2400 6700
+Connection ~ 2400 7050
+$Comp
+L power:+3.3V #PWR?
+U 1 1 614F3B16
+P 2400 6500
+F 0 "#PWR?" H 2400 6350 50  0001 C CNN
+F 1 "+3.3V" H 2415 6673 50  0000 C CNN
+F 2 "" H 2400 6500 50  0001 C CNN
+F 3 "" H 2400 6500 50  0001 C CNN
+	1    2400 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 614F4ECD
+P 1700 6650
+F 0 "#PWR?" H 1700 6500 50  0001 C CNN
+F 1 "+3.3V" H 1715 6823 50  0000 C CNN
+F 2 "" H 1700 6650 50  0001 C CNN
+F 3 "" H 1700 6650 50  0001 C CNN
+	1    1700 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L pace:100n C4
+U 1 1 614F53A5
+P 1350 5800
+F 0 "C4" H 1442 5846 50  0000 L CNN
+F 1 "100n" H 1442 5755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1350 5800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf" H 1350 5800 50  0001 C CNN
+F 4 "C1525" H 1350 5800 50  0001 C CNN "LCSC"
+	1    1350 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 6850 1050 6850
+Wire Wire Line
+	1050 6850 1050 7700
+Wire Wire Line
+	1050 7700 2250 7700
+Wire Wire Line
+	2250 7700 2250 7250
+Connection ~ 2250 7250
+Wire Wire Line
+	2250 7250 2200 7250
+$Comp
+L pace:100n C1
+U 1 1 6161C313
+P 500 7500
+F 0 "C1" H 592 7546 50  0000 L CNN
+F 1 "100n" H 592 7455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 500 7500 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf" H 500 7500 50  0001 C CNN
+F 4 "C1525" H 500 7500 50  0001 C CNN "LCSC"
+	1    500  7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6169BEE5
+P 500 7600
+F 0 "#PWR?" H 500 7350 50  0001 C CNN
+F 1 "GND" H 505 7427 50  0000 C CNN
+F 2 "" H 500 7600 50  0001 C CNN
+F 3 "" H 500 7600 50  0001 C CNN
+	1    500  7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 61790B44
+P 1000 7250
+F 0 "#PWR?" H 1000 7100 50  0001 C CNN
+F 1 "+3.3V" V 1000 7500 50  0000 C CNN
+F 2 "" H 1000 7250 50  0001 C CNN
+F 3 "" H 1000 7250 50  0001 C CNN
+	1    1000 7250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1200 7250 1000 7250
+Wire Wire Line
+	500  7400 500  7050
+Wire Wire Line
+	500  7050 1200 7050
+$Comp
+L power:GND #PWR?
+U 1 1 61CD5031
+P 2400 7600
+F 0 "#PWR?" H 2400 7350 50  0001 C CNN
+F 1 "GND" H 2405 7427 50  0000 C CNN
+F 2 "" H 2400 7600 50  0001 C CNN
+F 3 "" H 2400 7600 50  0001 C CNN
+	1    2400 7600
+	1    0    0    -1  
+$EndComp
+Text Notes 700  6300 0    50   ~ 0
+slow clock - period 207 milliseconds
+Text Notes 3350 6100 0    50   ~ 0
+one hot shift register\n
+$Comp
+L power:+3.3V #PWR?
+U 1 1 61CE2C39
+P 650 5700
+F 0 "#PWR?" H 650 5550 50  0001 C CNN
+F 1 "+3.3V" H 665 5873 50  0000 C CNN
+F 2 "" H 650 5700 50  0001 C CNN
+F 3 "" H 650 5700 50  0001 C CNN
+	1    650  5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61CE39EE
+P 650 5900
+F 0 "#PWR?" H 650 5650 50  0001 C CNN
+F 1 "GND" H 655 5727 50  0000 C CNN
+F 2 "" H 650 5900 50  0001 C CNN
+F 3 "" H 650 5900 50  0001 C CNN
+	1    650  5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	650  5700 1000 5700
+Connection ~ 650  5700
+Connection ~ 1000 5700
+Wire Wire Line
+	1000 5700 1350 5700
+Wire Wire Line
+	1350 5900 1000 5900
+Connection ~ 650  5900
+Connection ~ 1000 5900
+Wire Wire Line
+	1000 5900 650  5900
+$Comp
+L pace:AP1117-33 U5
+U 1 1 61F478E3
+P 8450 4900
+F 0 "U5" H 8450 5233 50  0000 C CNN
+F 1 "AP1117-33" H 8450 5142 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 8450 5100 50  0001 C CNN
+F 3 "http://www.diodes.com/datasheets/AP1117.pdf" H 8550 4650 50  0001 C CNN
+F 4 "C6186" H 8450 5051 50  0001 C CNN "LCSC"
+	1    8450 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61F4CCE1
+P 8450 5200
+F 0 "#PWR?" H 8450 4950 50  0001 C CNN
+F 1 "GND" H 8455 5027 50  0000 C CNN
+F 2 "" H 8450 5200 50  0001 C CNN
+F 3 "" H 8450 5200 50  0001 C CNN
+	1    8450 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L pace:10u C7
+U 1 1 61F5154C
+P 8950 5100
+F 0 "C7" H 9042 5146 50  0000 L CNN
+F 1 "10u" H 9042 5055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8950 5100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.pdf" H 8950 5100 50  0001 C CNN
+F 4 "C15525" H 8950 5100 50  0001 C CNN "LCSC"
+	1    8950 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L pace:10u C6
+U 1 1 61F5A4E5
+P 7950 5100
+F 0 "C6" H 8042 5146 50  0000 L CNN
+F 1 "10u" H 8042 5055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7950 5100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05A106MQ5NUNC_C15525.pdf" H 7950 5100 50  0001 C CNN
+F 4 "C15525" H 7950 5100 50  0001 C CNN "LCSC"
+	1    7950 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L pace:Barrel_Jack_Switch J19
+U 1 1 61FE2E09
+P 6150 5000
+F 0 "J19" H 6207 5225 50  0000 C CNN
+F 1 "Barrel_Jack_Switch" H 6207 5226 50  0001 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 6200 4960 50  0001 C CNN
+F 3 "~" H 6200 4960 50  0001 C CNN
+	1    6150 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J20
+U 1 1 61FE8FB2
+P 6200 5300
+F 0 "J20" H 6308 5389 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 6308 5390 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6200 5300 50  0001 C CNN
+F 3 "~" H 6200 5300 50  0001 C CNN
+	1    6200 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 5100 6600 5100
+$Comp
+L power:GND #PWR?
+U 1 1 620F8758
+P 6600 5500
+F 0 "#PWR?" H 6600 5250 50  0001 C CNN
+F 1 "GND" H 6605 5327 50  0000 C CNN
+F 2 "" H 6600 5500 50  0001 C CNN
+F 3 "" H 6600 5500 50  0001 C CNN
+	1    6600 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 5400 6600 5400
+Wire Wire Line
+	6600 5400 6600 5500
+Wire Wire Line
+	6450 5000 6450 5100
+Connection ~ 6450 5100
+$Comp
+L pace:SS210 D109
+U 1 1 621F551E
+P 7450 4900
+F 0 "D109" H 7450 4693 50  0000 C CNN
+F 1 "SS210" H 7450 4784 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" V 7450 4900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1903041730_MDD-Jiangsu-Yutai-Elec-SS210_C14996.pdf" V 7450 4900 50  0001 C CNN
+F 4 "C14996" H 7450 4900 50  0001 C CNN "LCSC"
+	1    7450 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6450 4900 6750 4900
+Wire Wire Line
+	6400 5300 6750 5300
+Wire Wire Line
+	6750 5300 6750 4900
+$Comp
+L pace:fuse-250mA F1
+U 1 1 6240B818
+P 7050 4900
+F 0 "F1" V 6845 4900 50  0000 C CNN
+F 1 "fuse-250mA" V 6936 4900 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric" H 7100 4700 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/TECHFUSE-nSMD025_C70068.pdf" H 7050 4900 50  0001 C CNN
+F 4 "C70068" H 7050 4900 50  0001 C CNN "LCSC"
+	1    7050 4900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6750 4900 6950 4900
+Connection ~ 6750 4900
+Wire Wire Line
+	7150 4900 7350 4900
+Wire Wire Line
+	6600 5100 6600 5400
+Connection ~ 6600 5400
+Wire Wire Line
+	7550 4900 7800 4900
+Wire Wire Line
+	7950 5000 7950 4900
+Connection ~ 7950 4900
+Wire Wire Line
+	7950 4900 8150 4900
+Wire Wire Line
+	8750 4900 8950 4900
+Wire Wire Line
+	8950 4900 8950 5000
+$Comp
+L power:+3.3V #PWR?
+U 1 1 62BC5544
+P 9300 4900
+F 0 "#PWR?" H 9300 4750 50  0001 C CNN
+F 1 "+3.3V" H 9315 5073 50  0000 C CNN
+F 2 "" H 9300 4900 50  0001 C CNN
+F 3 "" H 9300 4900 50  0001 C CNN
+	1    9300 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 4900 9300 4900
+Connection ~ 8950 4900
+$Comp
+L power:GND #PWR?
+U 1 1 62C48DDF
+P 7950 5200
+F 0 "#PWR?" H 7950 4950 50  0001 C CNN
+F 1 "GND" H 7955 5027 50  0000 C CNN
+F 2 "" H 7950 5200 50  0001 C CNN
+F 3 "" H 7950 5200 50  0001 C CNN
+	1    7950 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62CCB558
+P 8950 5200
+F 0 "#PWR?" H 8950 4950 50  0001 C CNN
+F 1 "GND" H 8955 5027 50  0000 C CNN
+F 2 "" H 8950 5200 50  0001 C CNN
+F 3 "" H 8950 5200 50  0001 C CNN
+	1    8950 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 62D63200
+P 7800 4900
+F 0 "#FLG?" H 7800 4975 50  0001 C CNN
+F 1 "PWR_FLAG" H 7800 5073 50  0001 C CNN
+F 2 "" H 7800 4900 50  0001 C CNN
+F 3 "~" H 7800 4900 50  0001 C CNN
+	1    7800 4900
+	1    0    0    -1  
+$EndComp
+Connection ~ 7800 4900
+Wire Wire Line
+	7800 4900 7950 4900
+$EndSCHEMATC
