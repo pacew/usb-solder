@@ -462,7 +462,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE54EBC)
-    (at 138.632801 239.864401)
+    (at 90.805 87.63)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /610D649D)
@@ -3586,7 +3586,7 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE54DDD)
-    (at 137.9728 142.113)
+    (at 136.7 141.7552)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /6005966A)
@@ -3624,7 +3624,7 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE54DF0)
-    (at 136.525 132.715)
+    (at 136.7 130.86948)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /600596D5)
@@ -3738,7 +3738,7 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE54E29)
-    (at 138.0236 136.6774)
+    (at 136.7 136.3102)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /6005969E)
@@ -3776,7 +3776,7 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE54E3C)
-    (at 135.255 127.635)
+    (at 136.7 126.261792)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /60059709)
@@ -3890,7 +3890,7 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE54E75)
-    (at 137.7188 138.3538)
+    (at 136.7 138.1252)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /60059678)
@@ -3928,7 +3928,7 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE54E88)
-    (at 136.525 128.905)
+    (at 136.7 127.797688)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /600596E3)
@@ -4118,7 +4118,7 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE54EE7)
-    (at 137.8458 140.2334)
+    (at 136.7 139.9402)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /60059685)
@@ -4156,7 +4156,7 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE54EFA)
-    (at 138.0236 134.7978)
+    (at 136.7 134.4952)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /600596A7)
@@ -4194,7 +4194,7 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE54F0D)
-    (at 135.255 130.81)
+    (at 136.7 129.333584)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /600596F0)
@@ -4232,7 +4232,7 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE54F20)
-    (at 136.525 125.73)
+    (at 136.7 124.725896)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /60059712)
@@ -4270,7 +4270,7 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE54F33)
-    (at 135.89 123.19)
+    (at 136.7 119.98377)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /600B0B68)
@@ -4308,7 +4308,7 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE54F46)
-    (at 136.525 110.49)
+    (at 136.7 109.418057)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /600B0BD3)
@@ -4345,8 +4345,8 @@
     )
   )
 
-  (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE54F59)
-    (at 137.16 100.33)
+  (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE51AE7)
+    (at 136.7 98.212342)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /600B0C3E)
@@ -4384,12 +4384,12 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE54F6C)
-    (at 71.843401 205.360601)
+    (at 136.7 87.326628)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /600B0CA9)
     (attr smd)
-    (fp_text reference D84 (at 0 -1.43) (layer F.SilkS)
+    (fp_text reference D84 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value ledred (at 0 1.43) (layer F.Fab)
@@ -4422,7 +4422,7 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE54F7F)
-    (at 135.89 116.205)
+    (at 136.7 114.53877)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /600B0B9C)
@@ -4460,7 +4460,7 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE54F92)
-    (at 136.525 106.045)
+    (at 136.7 103.733056)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /600B0C07)
@@ -4497,8 +4497,8 @@
     )
   )
 
-  (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE54FA5)
-    (at 137.16 94.615)
+  (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE51AB1)
+    (at 136.7 92.767342)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /600B0C72)
@@ -4536,12 +4536,12 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE54FB8)
-    (at 111.343401 166.400601)
+    (at 136.7 81.881628)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /600B0CDD)
     (attr smd)
-    (fp_text reference D88 (at 0 -1.43) (layer F.SilkS)
+    (fp_text reference D88 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value ledred (at 0 1.43) (layer F.Fab)
@@ -4574,7 +4574,7 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE54FCB)
-    (at 135.89 119.38)
+    (at 136.7 116.35377)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /600B0B76)
@@ -4612,7 +4612,7 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE54FDE)
-    (at 137.16 107.315)
+    (at 136.7 105.628056)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /600B0BE1)
@@ -4649,8 +4649,8 @@
     )
   )
 
-  (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE54FF1)
-    (at 138.43 96.52)
+  (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE51A7B)
+    (at 136.7 94.582342)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /600B0C4C)
@@ -4688,12 +4688,12 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE55004)
-    (at 73.593401 197.590601)
+    (at 136.7 83.696628)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /600B0CB7)
     (attr smd)
-    (fp_text reference D92 (at 0 -1.43) (layer F.SilkS)
+    (fp_text reference D92 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value ledred (at 0 1.43) (layer F.Fab)
@@ -4726,7 +4726,7 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE55017)
-    (at 135.89 121.285)
+    (at 136.7 118.16877)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /600B0B83)
@@ -4764,7 +4764,7 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE5502A)
-    (at 136.525 113.665)
+    (at 136.7 112.72377)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /600B0BA5)
@@ -4802,7 +4802,7 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE5503D)
-    (at 135.89 108.585)
+    (at 136.7 107.523056)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /600B0BEE)
@@ -4840,7 +4840,7 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE55050)
-    (at 135.89 104.14)
+    (at 136.7 101.838056)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /600B0C10)
@@ -4877,8 +4877,8 @@
     )
   )
 
-  (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE55063)
-    (at 137.16 98.425)
+  (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE51A45)
+    (at 136.7 96.397342)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /600B0C59)
@@ -4915,8 +4915,8 @@
     )
   )
 
-  (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE55076)
-    (at 139.7 93.345)
+  (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE51A0F)
+    (at 136.7 90.952342)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /600B0C7B)
@@ -4954,12 +4954,12 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE55089)
-    (at 94.493401 174.950601)
+    (at 136.7 85.511628)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /600B0CC4)
     (attr smd)
-    (fp_text reference D99 (at 0 -1.43) (layer F.SilkS)
+    (fp_text reference D99 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value ledred (at 0 1.43) (layer F.Fab)
@@ -4992,12 +4992,12 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE5509C)
-    (at 78.943401 191.840601)
+    (at 136.7 80.066628)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /600B0CE6)
     (attr smd)
-    (fp_text reference D100 (at 0 -1.43) (layer F.SilkS)
+    (fp_text reference D100 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value ledred (at 0 1.43) (layer F.Fab)
@@ -5030,7 +5030,7 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE550AF)
-    (at 133.985 78.74)
+    (at 136.7 76.440914)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /600B0D14)
@@ -5068,12 +5068,12 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE550C2)
-    (at 135.89 66.04)
+    (at 136.7 65.5552)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /600B0D7F)
     (attr smd)
-    (fp_text reference D102 (at 0 -1.43) (layer F.SilkS)
+    (fp_text reference D102 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value ledred (at 0 1.43) (layer F.Fab)
@@ -5106,7 +5106,7 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE550D5)
-    (at 132.715 73.025)
+    (at 136.7 70.995914)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /600B0D48)
@@ -5144,12 +5144,12 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE550E8)
-    (at 135.255 60.325)
+    (at 136.7 60.1102)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /600B0DB3)
     (attr smd)
-    (fp_text reference D104 (at 0 -1.43) (layer F.SilkS)
+    (fp_text reference D104 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value ledred (at 0 1.43) (layer F.Fab)
@@ -5182,7 +5182,7 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE550FB)
-    (at 133.985 74.93)
+    (at 136.7 72.810914)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /600B0D22)
@@ -5220,12 +5220,12 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE5510E)
-    (at 136.525 62.23)
+    (at 136.7 61.9252)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /600B0D8D)
     (attr smd)
-    (fp_text reference D106 (at 0 -1.43) (layer F.SilkS)
+    (fp_text reference D106 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value ledred (at 0 1.43) (layer F.Fab)
@@ -5258,7 +5258,7 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE55121)
-    (at 132.715 76.835)
+    (at 136.7 74.625914)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /600B0D2F)
@@ -5296,7 +5296,7 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE55134)
-    (at 134.62 71.755)
+    (at 136.7 69.180914)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /600B0D51)
@@ -5334,12 +5334,12 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE55147)
-    (at 135.255 64.135)
+    (at 136.7 63.7402)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /600B0D9A)
     (attr smd)
-    (fp_text reference D109 (at 0 -1.43) (layer F.SilkS)
+    (fp_text reference D109 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value ledred (at 0 1.43) (layer F.Fab)
@@ -5372,12 +5372,12 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5FE5515A)
-    (at 136.525 58.42)
+    (at 136.7 58.2952)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags diode)
     (path /600B0DBC)
     (attr smd)
-    (fp_text reference D110 (at 0 -1.43) (layer F.SilkS)
+    (fp_text reference D110 (at 0 -1.43) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value ledred (at 0 1.43) (layer F.Fab)
@@ -6709,7 +6709,7 @@
   )
 
   (module Connector_USB:USB_Micro-B_Molex-105017-0001 (layer F.Cu) (tedit 5A1DC0BE) (tstamp 5FE5544D)
-    (at 147.3596 128.6002 90)
+    (at 147.32 127.239484 90)
     (descr http://www.molex.com/pdm_docs/sd/1050170001_sd.pdf)
     (tags "Micro-USB SMD Typ-B")
     (path /600596C8)
@@ -6782,7 +6782,7 @@
   )
 
   (module Connector_USB:USB_Micro-B_Molex-105017-0001 (layer F.Cu) (tedit 5A1DC0BE) (tstamp 5FE55476)
-    (at 147.3596 119.0752 90)
+    (at 147.3596 116.35377 90)
     (descr http://www.molex.com/pdm_docs/sd/1050170001_sd.pdf)
     (tags "Micro-USB SMD Typ-B")
     (path /600B0B5B)
@@ -6855,7 +6855,7 @@
   )
 
   (module Connector_USB:USB_Micro-B_Molex-105017-0001 (layer F.Cu) (tedit 5A1DC0BE) (tstamp 5FE5549F)
-    (at 147.3596 107.6452 90)
+    (at 147.3596 105.468056 90)
     (descr http://www.molex.com/pdm_docs/sd/1050170001_sd.pdf)
     (tags "Micro-USB SMD Typ-B")
     (path /600B0BC6)
@@ -6927,8 +6927,8 @@
     )
   )
 
-  (module Connector_USB:USB_Micro-B_Molex-105017-0001 (layer F.Cu) (tedit 5A1DC0BE) (tstamp 5FE554C8)
-    (at 151.1696 96.2152 90)
+  (module Connector_USB:USB_Micro-B_Molex-105017-0001 (layer F.Cu) (tedit 5A1DC0BE) (tstamp 5FE519AD)
+    (at 147.32 94.582342 90)
     (descr http://www.molex.com/pdm_docs/sd/1050170001_sd.pdf)
     (tags "Micro-USB SMD Typ-B")
     (path /600B0C31)
@@ -7001,7 +7001,7 @@
   )
 
   (module Connector_USB:USB_Micro-B_Molex-105017-0001 (layer F.Cu) (tedit 5A1DC0BE) (tstamp 5FE55F34)
-    (at 148.59 85.09 90)
+    (at 147.32 83.696628 90)
     (descr http://www.molex.com/pdm_docs/sd/1050170001_sd.pdf)
     (tags "Micro-USB SMD Typ-B")
     (path /600B0C9C)
@@ -7074,7 +7074,7 @@
   )
 
   (module Connector_USB:USB_Micro-B_Molex-105017-0001 (layer F.Cu) (tedit 5A1DC0BE) (tstamp 5FE5551A)
-    (at 147.3596 74.6252 90)
+    (at 147.32 72.810914 90)
     (descr http://www.molex.com/pdm_docs/sd/1050170001_sd.pdf)
     (tags "Micro-USB SMD Typ-B")
     (path /600B0D07)
@@ -9135,7 +9135,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE55861)
-    (at 141.3256 134.6708)
+    (at 140.1 134.7252)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /600596AF)
@@ -9156,7 +9156,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE55869)
-    (at 139.7 124.46)
+    (at 140.1 123.839484)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /6005971A)
@@ -9261,7 +9261,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE55891)
-    (at 143.7386 141.5034)
+    (at 143 141.5252)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /60059663)
@@ -9282,7 +9282,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE55899)
-    (at 141.2748 137.1346)
+    (at 140.1 137.4452)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /6005968B)
@@ -9303,7 +9303,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE558A1)
-    (at 142.875 132.08)
+    (at 143 130.639484)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /600596CE)
@@ -9324,7 +9324,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE558A9)
-    (at 139.7 127.635)
+    (at 140.1 127.635)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /600596F6)
@@ -9387,7 +9387,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE558C1)
-    (at 143.7132 135.9916)
+    (at 143 136.0852)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /60059691)
@@ -9408,7 +9408,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE558C9)
-    (at 142.875 125.73)
+    (at 143 125.73)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /600596FC)
@@ -9471,7 +9471,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE558E1)
-    (at 143.4084 138.7094)
+    (at 143 138.8052)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /60059671)
@@ -9492,7 +9492,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE558E9)
-    (at 142.875 128.905)
+    (at 143 128.905)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /600596DC)
@@ -9555,7 +9555,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE545C4)
-    (at 141.3256 140.2842)
+    (at 140.1 140.1652)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /6005967E)
@@ -9576,7 +9576,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE55909)
-    (at 139.7 130.175)
+    (at 140.1 130.175)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /600596E9)
@@ -9597,7 +9597,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE55911)
-    (at 139.7 114.3)
+    (at 140.1 112.95377)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /600B0BAD)
@@ -9618,7 +9618,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE55919)
-    (at 140.97 104.14)
+    (at 140.1 102.068056)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /600B0C18)
@@ -9638,8 +9638,8 @@
       (net 100 "Net-(D96-Pad2)"))
   )
 
-  (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE55921)
-    (at 143.51 92.71)
+  (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE51977)
+    (at 140.1 91.182342)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /600B0C83)
@@ -9660,7 +9660,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE55929)
-    (at 140.335 81.915)
+    (at 140.1 80.296628)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /600B0CEE)
@@ -9681,7 +9681,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE55931)
-    (at 142.875 122.555)
+    (at 143 119.75377)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /600B0B61)
@@ -9702,7 +9702,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE55939)
-    (at 139.7 117.475)
+    (at 140.1 115.67377)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /600B0B89)
@@ -9723,7 +9723,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE55941)
-    (at 142.875 111.76)
+    (at 143 108.868056)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /600B0BCC)
@@ -9744,7 +9744,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE55949)
-    (at 140.335 107.315)
+    (at 140.1 104.788056)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /600B0BF4)
@@ -9764,8 +9764,8 @@
       (net 143 "Net-(J18-Pad4)"))
   )
 
-  (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE55951)
-    (at 146.685 99.695)
+  (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE51962)
+    (at 143 97.982342)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /600B0C37)
@@ -9785,8 +9785,8 @@
       (net 87 "Net-(D83-Pad2)"))
   )
 
-  (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE55959)
-    (at 143.51 94.615)
+  (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE5194D)
+    (at 140.1 93.902342)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /600B0C5F)
@@ -9807,7 +9807,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE55961)
-    (at 143.51 88.9)
+    (at 143 87.096628)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /600B0CA2)
@@ -9828,7 +9828,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE55969)
-    (at 140.335 84.455)
+    (at 140.1 83.016628)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /600B0CCA)
@@ -9849,7 +9849,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE55971)
-    (at 142.875 116.205)
+    (at 143 114.31377)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /600B0B8F)
@@ -9870,7 +9870,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE55979)
-    (at 143.51 105.41)
+    (at 143 103.428056)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /600B0BFA)
@@ -9890,8 +9890,8 @@
       (net 90 "Net-(D86-Pad2)"))
   )
 
-  (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE55981)
-    (at 146.685 93.98)
+  (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE51938)
+    (at 143 92.542342)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /600B0C65)
@@ -9912,7 +9912,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE55989)
-    (at 142.875 83.185)
+    (at 143 81.656628)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /600B0CD0)
@@ -9933,7 +9933,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE55991)
-    (at 142.875 119.38)
+    (at 143 117.03377)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /600B0B6F)
@@ -9954,7 +9954,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE55999)
-    (at 142.875 108.585)
+    (at 143 106.148056)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /600B0BDA)
@@ -9974,8 +9974,8 @@
       (net 94 "Net-(D90-Pad2)"))
   )
 
-  (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE559A1)
-    (at 146.685 95.885)
+  (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE51923)
+    (at 143 95.262342)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /600B0C45)
@@ -9996,7 +9996,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE559A9)
-    (at 143.51 85.725)
+    (at 143 84.376628)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /600B0CB0)
@@ -10017,7 +10017,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE559B1)
-    (at 139.7 120.65)
+    (at 140.1 118.39377)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /600B0B7C)
@@ -10038,7 +10038,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE559B9)
-    (at 139.7 109.855)
+    (at 140.1 107.508056)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /600B0BE7)
@@ -10058,8 +10058,8 @@
       (net 99 "Net-(D95-Pad2)"))
   )
 
-  (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE559C1)
-    (at 143.51 97.79)
+  (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE5190E)
+    (at 140.1 96.622342)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /600B0C52)
@@ -10080,7 +10080,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE559C9)
-    (at 140.335 86.36)
+    (at 140.1 85.736628)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /600B0CBD)
@@ -10101,7 +10101,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE559D1)
-    (at 139.7 71.12)
+    (at 140.1 69.410914)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /600B0D59)
@@ -10122,7 +10122,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE559D9)
-    (at 139.7 59.055)
+    (at 140.1 58.5252)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /600B0DC4)
@@ -10143,7 +10143,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE559E1)
-    (at 142.875 78.74)
+    (at 143 76.210914)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /600B0D0D)
@@ -10164,7 +10164,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE559E9)
-    (at 139.7 74.295)
+    (at 140.1 72.130914)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /600B0D35)
@@ -10185,7 +10185,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE559F1)
-    (at 142.875 65.405)
+    (at 143 65.3252)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /600B0D78)
@@ -10206,7 +10206,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE559F9)
-    (at 139.7 61.595)
+    (at 140.1 61.2452)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /600B0DA0)
@@ -10227,7 +10227,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE55A01)
-    (at 142.875 72.39)
+    (at 143 70.770914)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /600B0D3B)
@@ -10248,7 +10248,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE55A09)
-    (at 142.875 60.325)
+    (at 143 59.8852)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /600B0DA6)
@@ -10269,7 +10269,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE55A11)
-    (at 142.875 74.93)
+    (at 143 73.490914)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /600B0D1B)
@@ -10290,7 +10290,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE55A19)
-    (at 142.875 62.23)
+    (at 143 62.6052)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /600B0D86)
@@ -10311,7 +10311,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE55A21)
-    (at 139.7 76.835)
+    (at 140.1 74.850914)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /600B0D28)
@@ -10332,7 +10332,7 @@
   )
 
   (module TestPoint:TestPoint_Pad_D1.0mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5FE55A29)
-    (at 139.7 63.5)
+    (at 140.1 63.9652)
     (descr "SMD pad as test Point, diameter 1.0mm")
     (tags "test point SMD pad")
     (path /600B0D93)
@@ -10429,7 +10429,7 @@
   )
 
   (gr_line (start 50 50) (end 50 150) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 150 50) (end 150 150) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 150 50) (end 150 150) (layer Edge.Cuts) (width 0.05) (tstamp 5FE51B0C))
   (gr_line (start 50 150) (end 150 150) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 50 50) (end 150 50) (layer Edge.Cuts) (width 0.05))
 
