@@ -4308,37 +4308,26 @@ F 4 "C2286" H 7800 1050 50  0001 C CNN "LCSC"
 	-1   0    0    1   
 $EndComp
 $Comp
-L pace:TestPoint TP131
-U 1 1 600B0D28
-P 7900 1250
-F 0 "TP131" H 7958 1322 50  0001 L CNN
-F 1 "TestPoint" H 7900 1450 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8100 1250 50  0001 C CNN
-F 3 "~" H 8100 1250 50  0001 C CNN
-	1    7900 1250
-	1    0    0    -1  
-$EndComp
-$Comp
 L pace:ledred D107
 U 1 1 600B0D2F
-P 8000 1250
-F 0 "D107" H 8000 1150 50  0001 C CNN
-F 1 "ledred" H 8000 1394 50  0001 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 8000 1250 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 8000 1250 50  0001 C CNN
-F 4 "C2286" H 8000 1250 50  0001 C CNN "LCSC"
-	1    8000 1250
+P 8000 1150
+F 0 "D107" H 8000 1050 50  0001 C CNN
+F 1 "ledred" H 8000 1294 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 8000 1150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 8000 1150 50  0001 C CNN
+F 4 "C2286" H 8000 1150 50  0001 C CNN "LCSC"
+	1    8000 1150
 	-1   0    0    1   
 $EndComp
 $Comp
 L pace:TestPoint TP124
 U 1 1 600B0D35
-P 7500 1250
-F 0 "TP124" H 7558 1322 50  0001 L CNN
-F 1 "TestPoint" H 7500 1450 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7700 1250 50  0001 C CNN
-F 3 "~" H 7700 1250 50  0001 C CNN
-	1    7500 1250
+P 8250 1250
+F 0 "TP124" H 8308 1322 50  0001 L CNN
+F 1 "TestPoint" H 8250 1450 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8450 1250 50  0001 C CNN
+F 3 "~" H 8450 1250 50  0001 C CNN
+	1    8250 1250
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -4355,13 +4344,7 @@ $EndComp
 Wire Wire Line
 	7500 1050 7700 1050
 Connection ~ 7700 1050
-Wire Wire Line
-	7500 1150 7700 1150
-Wire Wire Line
-	7700 1150 7700 1250
-Wire Wire Line
-	7700 1250 7900 1250
-Connection ~ 7900 1250
+Connection ~ 7900 1150
 $Comp
 L pace:ledred D103
 U 1 1 600B0D48
@@ -4422,14 +4405,14 @@ Wire Wire Line
 Wire Wire Line
 	8100 850  8100 1050
 Connection ~ 8100 1500
-Connection ~ 8100 1250
+Connection ~ 8100 1150
 Wire Wire Line
-	8100 1250 8100 1350
+	8100 1150 8100 1350
 Wire Wire Line
 	7900 1050 8100 1050
 Connection ~ 8100 1050
 Wire Wire Line
-	8100 1050 8100 1250
+	8100 1050 8100 1150
 Wire Wire Line
 	7800 1350 8100 1350
 Connection ~ 8100 1350
@@ -4930,7 +4913,6 @@ F 3 "~" H 8350 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 8550 4350
-NoConn ~ 750  1000
 $Comp
 L pace:10k R9
 U 1 1 6028FF76
@@ -5176,4 +5158,55 @@ F 3 "~" H 8550 500 50  0001 C CNN
 	1    8550 500 
 	1    0    0    -1  
 $EndComp
+$Comp
+L pace:+3.3V #PWR?
+U 1 1 5FF0EE57
+P 8250 850
+F 0 "#PWR?" H 8250 700 50  0001 C CNN
+F 1 "+3.3V" H 8265 1023 50  0000 C CNN
+F 2 "" H 8250 850 50  0001 C CNN
+F 3 "" H 8250 850 50  0001 C CNN
+	1    8250 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L pace:ledred D115
+U 1 1 5FF14412
+P 8250 950
+F 0 "D115" H 8250 850 50  0001 C CNN
+F 1 "ledred" H 8250 1094 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 8250 950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-KT-0603R_C2286.pdf" V 8250 950 50  0001 C CNN
+F 4 "C2286" H 8250 950 50  0001 C CNN "LCSC"
+	1    8250 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pace:10k R10
+U 1 1 5FF2ED5D
+P 8250 1150
+F 0 "R10" V 8300 1300 50  0001 L CNN
+F 1 "10k" V 8300 900 50  0001 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 8250 1150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 8250 1150 50  0001 C CNN
+F 4 "C25744" H 8250 1150 50  0001 C CNN "LCSC"
+	1    8250 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L pace:TestPoint TP131
+U 1 1 600B0D28
+P 7900 1150
+F 0 "TP131" H 7958 1222 50  0001 L CNN
+F 1 "TestPoint" H 7900 1350 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8100 1150 50  0001 C CNN
+F 3 "~" H 8100 1150 50  0001 C CNN
+	1    7900 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 1150 7900 1150
+Wire Wire Line
+	7500 1250 8250 1250
+Connection ~ 8250 1250
 $EndSCHEMATC
