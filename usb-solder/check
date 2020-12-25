@@ -1,0 +1,2 @@
+grep '^L ' usb-solder.sch | grep -v 'L pace:' | sort -u
+
