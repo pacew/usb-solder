@@ -53,7 +53,7 @@ Wire Wire Line
 	5350 6000 5450 6000
 NoConn ~ 4300 7450
 $Comp
-L power:GND #PWR?
+L pace:GND #PWR?
 U 1 1 613C9910
 P 3900 7650
 F 0 "#PWR?" H 3900 7400 50  0001 C CNN
@@ -68,7 +68,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 7050 3500 7050
 $Comp
-L power:+3.3V #PWR?
+L pace:+3.3V #PWR?
 U 1 1 5FFEA445
 P 3900 6550
 F 0 "#PWR?" H 3900 6400 50  0001 C CNN
@@ -79,7 +79,7 @@ F 3 "" H 3900 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L pace:+3.3V #PWR?
 U 1 1 5FFFA544
 P 3350 6600
 F 0 "#PWR?" H 3350 6450 50  0001 C CNN
@@ -139,7 +139,7 @@ F 4 "C398924" H 1700 7050 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L pace:GND #PWR?
 U 1 1 610D5483
 P 1700 7450
 F 0 "#PWR?" H 1700 7200 50  0001 C CNN
@@ -226,7 +226,7 @@ Wire Wire Line
 	2400 7050 2400 6700
 Connection ~ 2400 7050
 $Comp
-L power:+3.3V #PWR?
+L pace:+3.3V #PWR?
 U 1 1 614F3B16
 P 2400 6500
 F 0 "#PWR?" H 2400 6350 50  0001 C CNN
@@ -237,7 +237,7 @@ F 3 "" H 2400 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L pace:+3.3V #PWR?
 U 1 1 614F4ECD
 P 1700 6650
 F 0 "#PWR?" H 1700 6500 50  0001 C CNN
@@ -283,7 +283,7 @@ F 4 "C1525" H 600 7450 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L pace:GND #PWR?
 U 1 1 6169BEE5
 P 600 7550
 F 0 "#PWR?" H 600 7300 50  0001 C CNN
@@ -294,7 +294,7 @@ F 3 "" H 600 7550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L pace:+3.3V #PWR?
 U 1 1 61790B44
 P 1000 7250
 F 0 "#PWR?" H 1000 7100 50  0001 C CNN
@@ -311,7 +311,7 @@ Wire Wire Line
 Wire Wire Line
 	600  7050 1200 7050
 $Comp
-L power:GND #PWR?
+L pace:GND #PWR?
 U 1 1 61CD5031
 P 2400 7600
 F 0 "#PWR?" H 2400 7350 50  0001 C CNN
@@ -324,7 +324,7 @@ $EndComp
 Text Notes 3350 6100 0    50   ~ 0
 one hot shift register\n
 $Comp
-L power:+3.3V #PWR?
+L pace:+3.3V #PWR?
 U 1 1 61CE2C39
 P 650 5700
 F 0 "#PWR?" H 650 5550 50  0001 C CNN
@@ -335,7 +335,7 @@ F 3 "" H 650 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L pace:GND #PWR?
 U 1 1 61CE39EE
 P 650 5900
 F 0 "#PWR?" H 650 5650 50  0001 C CNN
@@ -370,7 +370,7 @@ F 4 "C6186" H 9550 4301 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L pace:GND #PWR?
 U 1 1 61F4CCE1
 P 9550 4450
 F 0 "#PWR?" H 9550 4200 50  0001 C CNN
@@ -416,7 +416,7 @@ F 3 "~" H 9400 2410 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02_Male J24
+L pace:Conn_01x02_Male J24
 U 1 1 61FE8FB2
 P 9200 3250
 F 0 "J24" H 9308 3339 50  0000 C CNN
@@ -427,7 +427,7 @@ F 3 "~" H 9200 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L pace:GND #PWR?
 U 1 1 620F8758
 P 9600 3450
 F 0 "#PWR?" H 9600 3200 50  0001 C CNN
@@ -477,7 +477,7 @@ Wire Wire Line
 Wire Wire Line
 	9950 4150 9950 4250
 $Comp
-L power:+3.3V #PWR?
+L pace:+3.3V #PWR?
 U 1 1 62BC5544
 P 10100 4150
 F 0 "#PWR?" H 10100 4000 50  0001 C CNN
@@ -491,7 +491,7 @@ Wire Wire Line
 	9950 4150 10100 4150
 Connection ~ 9950 4150
 $Comp
-L power:GND #PWR?
+L pace:GND #PWR?
 U 1 1 62C48DDF
 P 9100 4450
 F 0 "#PWR?" H 9100 4200 50  0001 C CNN
@@ -502,7 +502,7 @@ F 3 "" H 9100 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L pace:GND #PWR?
 U 1 1 62CCB558
 P 9950 4450
 F 0 "#PWR?" H 9950 4200 50  0001 C CNN
@@ -513,7 +513,7 @@ F 3 "" H 9950 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG?
+L pace:PWR_FLAG #FLG?
 U 1 1 62D63200
 P 9100 4150
 F 0 "#FLG?" H 9100 4225 50  0001 C CNN
@@ -521,50 +521,6 @@ F 1 "PWR_FLAG" H 9100 4323 50  0001 C CNN
 F 2 "" H 9100 4150 50  0001 C CNN
 F 3 "~" H 9100 4150 50  0001 C CNN
 	1    9100 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H1
-U 1 1 5FF8E504
-P 2050 350
-F 0 "H1" H 2150 350 50  0000 L CNN
-F 1 "MountingHole" H 2150 305 50  0001 L CNN
-F 2 "MountingHole:MountingHole_3.5mm" H 2050 350 50  0001 C CNN
-F 3 "~" H 2050 350 50  0001 C CNN
-	1    2050 350 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 5FF8E794
-P 2350 350
-F 0 "H2" H 2450 350 50  0000 L CNN
-F 1 "MountingHole" H 2450 305 50  0001 L CNN
-F 2 "MountingHole:MountingHole_3.5mm" H 2350 350 50  0001 C CNN
-F 3 "~" H 2350 350 50  0001 C CNN
-	1    2350 350 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 5FF8F8C9
-P 2650 350
-F 0 "H3" H 2750 350 50  0000 L CNN
-F 1 "MountingHole" H 2750 305 50  0001 L CNN
-F 2 "MountingHole:MountingHole_3.5mm" H 2650 350 50  0001 C CNN
-F 3 "~" H 2650 350 50  0001 C CNN
-	1    2650 350 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 5FF8FAC4
-P 2950 350
-F 0 "H4" H 3050 350 50  0000 L CNN
-F 1 "MountingHole" H 3050 305 50  0001 L CNN
-F 2 "MountingHole:MountingHole_3.5mm" H 2950 350 50  0001 C CNN
-F 3 "~" H 2950 350 50  0001 C CNN
-	1    2950 350 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -722,22 +678,10 @@ F 3 "~" H 800 1500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 600  1500
-$Comp
-L power:GND #PWR?
-U 1 1 5FFB7A74
-P 1600 1500
-F 0 "#PWR?" H 1600 1250 50  0001 C CNN
-F 1 "GND" H 1605 1327 50  0000 C CNN
-F 2 "" H 1600 1500 50  0001 C CNN
-F 3 "" H 1600 1500 50  0001 C CNN
-	1    1600 1500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1200 850  1600 850 
 Wire Wire Line
 	1600 850  1600 1050
-Connection ~ 1600 1500
 Connection ~ 1600 1250
 Wire Wire Line
 	1600 1250 1600 1350
@@ -910,7 +854,7 @@ F 3 "~" H 800 2450 50  0001 C CNN
 $EndComp
 Connection ~ 600  2450
 $Comp
-L power:GND #PWR?
+L pace:GND #PWR?
 U 1 1 6000DBA1
 P 1600 2450
 F 0 "#PWR?" H 1600 2200 50  0001 C CNN
@@ -1097,7 +1041,7 @@ F 3 "~" H 800 3400 50  0001 C CNN
 $EndComp
 Connection ~ 600  3400
 $Comp
-L power:GND #PWR?
+L pace:GND #PWR?
 U 1 1 600180AA
 P 1600 3400
 F 0 "#PWR?" H 1600 3150 50  0001 C CNN
@@ -1284,7 +1228,7 @@ F 3 "~" H 800 4350 50  0001 C CNN
 $EndComp
 Connection ~ 600  4350
 $Comp
-L power:GND #PWR?
+L pace:GND #PWR?
 U 1 1 60018115
 P 1600 4350
 F 0 "#PWR?" H 1600 4100 50  0001 C CNN
@@ -1471,7 +1415,7 @@ F 3 "~" H 2100 1500 50  0001 C CNN
 $EndComp
 Connection ~ 1900 1500
 $Comp
-L power:GND #PWR?
+L pace:GND #PWR?
 U 1 1 6002DD97
 P 2900 1500
 F 0 "#PWR?" H 2900 1250 50  0001 C CNN
@@ -1658,7 +1602,7 @@ F 3 "~" H 2100 2450 50  0001 C CNN
 $EndComp
 Connection ~ 1900 2450
 $Comp
-L power:GND #PWR?
+L pace:GND #PWR?
 U 1 1 6002DE02
 P 2900 2450
 F 0 "#PWR?" H 2900 2200 50  0001 C CNN
@@ -1845,7 +1789,7 @@ F 3 "~" H 2100 3400 50  0001 C CNN
 $EndComp
 Connection ~ 1900 3400
 $Comp
-L power:GND #PWR?
+L pace:GND #PWR?
 U 1 1 6002DE6D
 P 2900 3400
 F 0 "#PWR?" H 2900 3150 50  0001 C CNN
@@ -2032,7 +1976,7 @@ F 3 "~" H 2100 4350 50  0001 C CNN
 $EndComp
 Connection ~ 1900 4350
 $Comp
-L power:GND #PWR?
+L pace:GND #PWR?
 U 1 1 6002DED8
 P 2900 4350
 F 0 "#PWR?" H 2900 4100 50  0001 C CNN
@@ -2219,7 +2163,7 @@ F 3 "~" H 3400 1500 50  0001 C CNN
 $EndComp
 Connection ~ 3200 1500
 $Comp
-L power:GND #PWR?
+L pace:GND #PWR?
 U 1 1 60059434
 P 4200 1500
 F 0 "#PWR?" H 4200 1250 50  0001 C CNN
@@ -2406,7 +2350,7 @@ F 3 "~" H 3400 2450 50  0001 C CNN
 $EndComp
 Connection ~ 3200 2450
 $Comp
-L power:GND #PWR?
+L pace:GND #PWR?
 U 1 1 6005949F
 P 4200 2450
 F 0 "#PWR?" H 4200 2200 50  0001 C CNN
@@ -2593,7 +2537,7 @@ F 3 "~" H 3400 3400 50  0001 C CNN
 $EndComp
 Connection ~ 3200 3400
 $Comp
-L power:GND #PWR?
+L pace:GND #PWR?
 U 1 1 6005950A
 P 4200 3400
 F 0 "#PWR?" H 4200 3150 50  0001 C CNN
@@ -2780,7 +2724,7 @@ F 3 "~" H 3400 4350 50  0001 C CNN
 $EndComp
 Connection ~ 3200 4350
 $Comp
-L power:GND #PWR?
+L pace:GND #PWR?
 U 1 1 60059575
 P 4200 4350
 F 0 "#PWR?" H 4200 4100 50  0001 C CNN
@@ -2967,7 +2911,7 @@ F 3 "~" H 4700 1500 50  0001 C CNN
 $EndComp
 Connection ~ 4500 1500
 $Comp
-L power:GND #PWR?
+L pace:GND #PWR?
 U 1 1 600595E0
 P 5500 1500
 F 0 "#PWR?" H 5500 1250 50  0001 C CNN
@@ -3154,7 +3098,7 @@ F 3 "~" H 4700 2450 50  0001 C CNN
 $EndComp
 Connection ~ 4500 2450
 $Comp
-L power:GND #PWR?
+L pace:GND #PWR?
 U 1 1 6005964B
 P 5500 2450
 F 0 "#PWR?" H 5500 2200 50  0001 C CNN
@@ -3341,7 +3285,7 @@ F 3 "~" H 4700 3400 50  0001 C CNN
 $EndComp
 Connection ~ 4500 3400
 $Comp
-L power:GND #PWR?
+L pace:GND #PWR?
 U 1 1 600596B6
 P 5500 3400
 F 0 "#PWR?" H 5500 3150 50  0001 C CNN
@@ -3528,7 +3472,7 @@ F 3 "~" H 4700 4350 50  0001 C CNN
 $EndComp
 Connection ~ 4500 4350
 $Comp
-L power:GND #PWR?
+L pace:GND #PWR?
 U 1 1 60059721
 P 5500 4350
 F 0 "#PWR?" H 5500 4100 50  0001 C CNN
@@ -3715,7 +3659,7 @@ F 3 "~" H 6000 1500 50  0001 C CNN
 $EndComp
 Connection ~ 5800 1500
 $Comp
-L power:GND #PWR?
+L pace:GND #PWR?
 U 1 1 600B0BB4
 P 6800 1500
 F 0 "#PWR?" H 6800 1250 50  0001 C CNN
@@ -3902,7 +3846,7 @@ F 3 "~" H 6000 2450 50  0001 C CNN
 $EndComp
 Connection ~ 5800 2450
 $Comp
-L power:GND #PWR?
+L pace:GND #PWR?
 U 1 1 600B0C1F
 P 6800 2450
 F 0 "#PWR?" H 6800 2200 50  0001 C CNN
@@ -4089,7 +4033,7 @@ F 3 "~" H 6000 3400 50  0001 C CNN
 $EndComp
 Connection ~ 5800 3400
 $Comp
-L power:GND #PWR?
+L pace:GND #PWR?
 U 1 1 600B0C8A
 P 6800 3400
 F 0 "#PWR?" H 6800 3150 50  0001 C CNN
@@ -4276,7 +4220,7 @@ F 3 "~" H 6000 4350 50  0001 C CNN
 $EndComp
 Connection ~ 5800 4350
 $Comp
-L power:GND #PWR?
+L pace:GND #PWR?
 U 1 1 600B0CF5
 P 6800 4350
 F 0 "#PWR?" H 6800 4100 50  0001 C CNN
@@ -4463,7 +4407,7 @@ F 3 "~" H 7300 1500 50  0001 C CNN
 $EndComp
 Connection ~ 7100 1500
 $Comp
-L power:GND #PWR?
+L pace:GND #PWR?
 U 1 1 600B0D60
 P 8100 1500
 F 0 "#PWR?" H 8100 1250 50  0001 C CNN
@@ -4650,7 +4594,7 @@ F 3 "~" H 7300 2450 50  0001 C CNN
 $EndComp
 Connection ~ 7100 2450
 $Comp
-L power:GND #PWR?
+L pace:GND #PWR?
 U 1 1 600B0DCB
 P 8100 2450
 F 0 "#PWR?" H 8100 2200 50  0001 C CNN
@@ -4790,7 +4734,7 @@ TEST5
 Text GLabel 10000 5750 0    50   Input ~ 0
 TEST6
 $Comp
-L Connector:Conn_01x07_Male J27
+L pace:Conn_01x07_Male J27
 U 1 1 60AD63DE
 P 10200 5950
 F 0 "J27" H 10172 5928 50  0000 R CNN
@@ -4801,7 +4745,7 @@ F 3 "~" H 10200 5950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L pace:GND #PWR?
 U 1 1 60AD75DB
 P 9650 6350
 F 0 "#PWR?" H 9650 6100 50  0001 C CNN
@@ -4854,7 +4798,7 @@ SYNC
 Wire Wire Line
 	7900 6700 8050 6700
 $Comp
-L power:GND #PWR?
+L pace:GND #PWR?
 U 1 1 60CEE4DF
 P 8050 7000
 F 0 "#PWR?" H 8050 6750 50  0001 C CNN
@@ -4865,7 +4809,7 @@ F 3 "" H 8050 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L pace:GND #PWR?
 U 1 1 60DB5BC3
 P 9750 2600
 F 0 "#PWR?" H 9750 2350 50  0001 C CNN
@@ -4902,7 +4846,7 @@ F 4 "C14996" H 9950 1150 50  0001 C CNN "LCSC"
 $EndComp
 NoConn ~ 9400 1750
 $Comp
-L power:GND #PWR?
+L pace:GND #PWR?
 U 1 1 60F015B0
 P 9500 1750
 F 0 "#PWR?" H 9500 1500 50  0001 C CNN
@@ -4945,7 +4889,7 @@ Wire Wire Line
 Wire Wire Line
 	8750 7700 8750 7550
 $Comp
-L power:PWR_FLAG #FLG?
+L pace:PWR_FLAG #FLG?
 U 1 1 611C36A8
 P 9550 7550
 F 0 "#FLG?" H 9550 7625 50  0001 C CNN
@@ -4961,7 +4905,7 @@ Wire Wire Line
 Wire Wire Line
 	9150 6950 9550 6950
 $Comp
-L power:PWR_FLAG #FLG?
+L pace:PWR_FLAG #FLG?
 U 1 1 611EF484
 P 9550 6950
 F 0 "#FLG?" H 9550 7025 50  0001 C CNN
@@ -5046,7 +4990,7 @@ F 3 "https://lcsc.com/product-detail/74-Series_TI_SN74AHC1G04DCKR_SN74AHC1G04DCK
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L pace:+3.3V #PWR?
 U 1 1 6105EB87
 P 6650 6200
 F 0 "#PWR?" H 6650 6050 50  0001 C CNN
@@ -5057,7 +5001,7 @@ F 3 "" H 6650 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L pace:GND #PWR?
 U 1 1 6106236E
 P 6650 6400
 F 0 "#PWR?" H 6650 6150 50  0001 C CNN
@@ -5135,7 +5079,7 @@ F 4 "C68527" H 8350 5100 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L pace:+3.3V #PWR?
 U 1 1 613A2391
 P 8350 5350
 F 0 "#PWR?" H 8350 5200 50  0001 C CNN
@@ -5146,7 +5090,7 @@ F 3 "" H 8350 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L pace:GND #PWR?
 U 1 1 613A2B04
 P 8350 5600
 F 0 "#PWR?" H 8350 5350 50  0001 C CNN
@@ -5154,6 +5098,82 @@ F 1 "GND" H 8355 5427 50  0000 C CNN
 F 2 "" H 8350 5600 50  0001 C CNN
 F 3 "" H 8350 5600 50  0001 C CNN
 	1    8350 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L pace:GND #PWR?
+U 1 1 5FED4AAF
+P 1600 1500
+F 0 "#PWR?" H 1600 1250 50  0001 C CNN
+F 1 "GND" H 1605 1327 50  0000 C CNN
+F 2 "" H 1600 1500 50  0001 C CNN
+F 3 "" H 1600 1500 50  0001 C CNN
+	1    1600 1500
+	1    0    0    -1  
+$EndComp
+Connection ~ 1600 1500
+$Comp
+L pace:GND #PWR?
+U 1 1 5FEEA67E
+P 9150 600
+F 0 "#PWR?" H 9150 350 50  0001 C CNN
+F 1 "GND" H 9155 427 50  0000 C CNN
+F 2 "" H 9150 600 50  0001 C CNN
+F 3 "" H 9150 600 50  0001 C CNN
+	1    9150 600 
+	1    0    0    -1  
+$EndComp
+Connection ~ 9150 600 
+$Comp
+L pace:MountingHole_Pad H4
+U 1 1 5FEBF435
+P 9150 500
+F 0 "H4" H 9250 549 50  0001 L CNN
+F 1 "MountingHole_Pad" H 9250 458 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 9150 500 50  0001 C CNN
+F 3 "~" H 9150 500 50  0001 C CNN
+	1    9150 500 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 600  9150 600 
+Connection ~ 8950 600 
+$Comp
+L pace:MountingHole_Pad H3
+U 1 1 5FEBEF92
+P 8950 500
+F 0 "H3" H 9050 549 50  0001 L CNN
+F 1 "MountingHole_Pad" H 9050 458 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 8950 500 50  0001 C CNN
+F 3 "~" H 8950 500 50  0001 C CNN
+	1    8950 500 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 600  8950 600 
+Wire Wire Line
+	8550 600  8750 600 
+Connection ~ 8750 600 
+$Comp
+L pace:MountingHole_Pad H2
+U 1 1 5FEBEBF7
+P 8750 500
+F 0 "H2" H 8850 549 50  0001 L CNN
+F 1 "MountingHole_Pad" H 8850 458 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 8750 500 50  0001 C CNN
+F 3 "~" H 8750 500 50  0001 C CNN
+	1    8750 500 
+	1    0    0    -1  
+$EndComp
+$Comp
+L pace:MountingHole_Pad H1
+U 1 1 5FEBE5E9
+P 8550 500
+F 0 "H1" H 8650 549 50  0001 L CNN
+F 1 "MountingHole_Pad" H 8650 458 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 8550 500 50  0001 C CNN
+F 3 "~" H 8550 500 50  0001 C CNN
+	1    8550 500 
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
