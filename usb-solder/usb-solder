@@ -282,7 +282,7 @@ Reference, Value, Footprint, Datasheet, LCSC
 "J26","USB_B_Micro","Connector_USB:USB_Micro-B_Molex-105017-0001","~"
 "SW1","SW_SPDT","pace:Switch_Toggle_ATE1D-2M3-10-Z","~"
 "R9","10k","Resistor_SMD:R_0402_1005Metric","https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf","C25744"
-"U4","74AHC1G04","Package_TO_SOT_SMD:SOT-353_SC-70-5","https://lcsc.com/product-detail/74-Series_TI_SN74AHC1G04DCKR_SN74AHC1G04DCKR_C7466.html/?href=jlc-SMT"
+"U4","74AHC1G04","Package_TO_SOT_SMD:SOT-353_SC-70-5","https://lcsc.com/product-detail/74-Series_TI_SN74AHC1G04DCKR_SN74AHC1G04DCKR_C7466.html/?href=jlc-SMT","C7466"
 "H4","MountingHole_Pad","MountingHole:MountingHole_3.2mm_M3_Pad","~"
 "H3","MountingHole_Pad","MountingHole:MountingHole_3.2mm_M3_Pad","~"
 "H2","MountingHole_Pad","MountingHole:MountingHole_3.2mm_M3_Pad","~"
