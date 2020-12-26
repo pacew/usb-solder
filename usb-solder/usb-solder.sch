@@ -27,18 +27,6 @@ F 4 "C6825" H 3900 7050 50  0001 C CNN "LCSC"
 $EndComp
 $Comp
 L pace:4072 U3
-U 1 1 601681B2
-P 5050 6000
-F 0 "U3" H 5050 6375 50  0000 C CNN
-F 1 "4072" H 5050 6284 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5050 6000 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf" H 5050 6000 50  0001 C CNN
-F 4 "C68527" H 5050 6000 50  0001 C CNN "LCSC"
-	1    5050 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L pace:4072 U3
 U 2 1 601CB694
 P 5850 6300
 F 0 "U3" H 5850 6675 50  0000 C CNN
@@ -49,8 +37,6 @@ F 4 "C68527" H 5850 6300 50  0001 C CNN "LCSC"
 	2    5850 6300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5350 6000 5450 6000
 NoConn ~ 4300 7450
 $Comp
 L pace:GND #PWR?
@@ -4392,7 +4378,7 @@ Text GLabel 6300 7350 2    50   Input ~ 0
 TEST4
 Text GLabel 9700 6950 2    50   Input ~ 0
 TEST1
-Text Notes 8600 8100 0    50   ~ 0
+Text Notes 9050 8000 0    50   ~ 0
 pin 4 on the USB A connector\ngoes to pin 5 on the USB B
 Text GLabel 7850 7200 0    50   Input ~ 0
 TEST1
@@ -4648,8 +4634,6 @@ Wire Wire Line
 	4750 6050 4600 6050
 Wire Wire Line
 	4750 6150 4700 6150
-Wire Wire Line
-	5550 6350 5450 6350
 $Comp
 L pace:74AHC1G04 U4
 U 1 1 60FFF6A6
@@ -4688,10 +4672,6 @@ Wire Wire Line
 Wire Wire Line
 	4300 7250 4500 7250
 Wire Wire Line
-	4300 7050 4700 7050
-Wire Wire Line
-	4300 6750 5550 6750
-Wire Wire Line
 	4300 7350 4400 7350
 Wire Wire Line
 	4400 5850 4400 7350
@@ -4708,36 +4688,6 @@ Wire Wire Line
 Connection ~ 4600 7150
 Wire Wire Line
 	4600 7150 5900 7150
-Wire Wire Line
-	4700 6150 4700 7050
-Connection ~ 4700 7050
-Wire Wire Line
-	4700 7050 5900 7050
-Wire Wire Line
-	4300 6950 5350 6950
-Wire Wire Line
-	4300 6850 5450 6850
-Connection ~ 5350 6950
-Wire Wire Line
-	5350 6950 5900 6950
-Wire Wire Line
-	5450 6350 5450 6850
-Connection ~ 5450 6850
-Wire Wire Line
-	5450 6850 5900 6850
-Wire Wire Line
-	5550 6450 5550 6750
-Connection ~ 5550 6750
-Wire Wire Line
-	5550 6750 5900 6750
-Wire Wire Line
-	5450 6000 5450 6250
-Wire Wire Line
-	5450 6250 5550 6250
-Wire Wire Line
-	5350 6150 5550 6150
-Wire Wire Line
-	5350 6150 5350 6950
 $Comp
 L pace:4072 U3
 U 3 1 6139E285
@@ -5683,4 +5633,74 @@ F 4 "C25744" H 1800 1150 50  0001 C CNN "LCSC"
 	1    1800 1150
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4700 6150 4700 7050
+Wire Wire Line
+	4300 7050 4700 7050
+Connection ~ 4700 7050
+Wire Wire Line
+	4700 7050 5900 7050
+Wire Wire Line
+	5300 6850 5900 6850
+Wire Wire Line
+	4300 6850 5300 6850
+Connection ~ 5300 6850
+Wire Wire Line
+	5300 6250 5300 6850
+Wire Wire Line
+	5300 6250 5550 6250
+Wire Wire Line
+	5200 6950 5900 6950
+Wire Wire Line
+	4300 6950 5200 6950
+Connection ~ 5200 6950
+Wire Wire Line
+	5200 6150 5200 6950
+$Comp
+L pace:4072 U3
+U 1 1 601681B2
+P 5050 6000
+F 0 "U3" H 5050 6375 50  0000 C CNN
+F 1 "4072" H 5050 6284 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5050 6000 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf" H 5050 6000 50  0001 C CNN
+F 4 "C68527" H 5050 6000 50  0001 C CNN "LCSC"
+	1    5050 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 6150 5550 6150
+Wire Wire Line
+	4300 6750 5400 6750
+Wire Wire Line
+	5550 6350 5400 6350
+Wire Wire Line
+	5400 6350 5400 6750
+Connection ~ 5400 6750
+Wire Wire Line
+	5400 6750 5900 6750
+Wire Wire Line
+	5350 6000 5500 6000
+Wire Wire Line
+	5500 6000 5500 6450
+Wire Wire Line
+	5500 6450 5550 6450
+$Comp
+L pace:100n C9
+U 1 1 604E3FC4
+P 8550 7900
+F 0 "C9" H 8642 7946 50  0000 L CNN
+F 1 "100n" H 8642 7855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8550 7900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf" H 8550 7900 50  0001 C CNN
+F 4 "C1525" H 8550 7900 50  0001 C CNN "LCSC"
+	1    8550 7900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 8000 8550 8000
+Connection ~ 8200 8000
+Wire Wire Line
+	8200 7800 8550 7800
+Connection ~ 8200 7800
 $EndSCHEMATC
