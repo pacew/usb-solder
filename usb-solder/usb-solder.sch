@@ -4374,8 +4374,6 @@ F 4 "C25744" H 6000 7250 50  0001 C CNN "LCSC"
 	1    6000 7250
 	0    -1   -1   0   
 $EndComp
-Text GLabel 6300 7350 2    50   Input ~ 0
-TEST4
 Text GLabel 9700 6950 2    50   Input ~ 0
 TEST1
 Text Notes 9050 8000 0    50   ~ 0
@@ -4387,22 +4385,9 @@ TEST2
 Text GLabel 7850 7000 0    50   Input ~ 0
 TEST3
 Text GLabel 7850 6900 0    50   Input ~ 0
-TEST4
-Text GLabel 7850 6800 0    50   Input ~ 0
 TEST5
-Text GLabel 7850 6700 0    50   Input ~ 0
+Text GLabel 7850 6800 0    50   Input ~ 0
 TEST6
-$Comp
-L pace:Conn_01x07_Male J27
-U 1 1 60AD63DE
-P 8050 6900
-F 0 "J27" H 8022 6878 50  0000 R CNN
-F 1 "Conn_01x07_Male" H 8022 6923 50  0001 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 8050 6900 50  0001 C CNN
-F 3 "~" H 8050 6900 50  0001 C CNN
-	1    8050 6900
-	-1   0    0    1   
-$EndComp
 $Comp
 L pace:GND #PWR?
 U 1 1 60AD75DB
@@ -4415,11 +4400,11 @@ F 3 "" H 7500 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7850 6600 7500 6600
+	7850 6700 7500 6700
 Wire Wire Line
-	7500 6600 7500 7300
+	7500 6700 7500 7300
 Text Notes 4650 7750 0    50   ~ 0
-ID pin (TEST4) out of order since it\nis not present on a standard cable
+ID pin (TEST4) omitted since it\nis not present on a standard cable
 Text Notes 850  6400 0    50   ~ 0
 200 millisec period clock
 $Comp
@@ -4589,18 +4574,6 @@ F 3 "~" H 8350 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 8550 5900
-$Comp
-L pace:10k R9
-U 1 1 6028FF76
-P 6000 7350
-F 0 "R9" V 6050 7500 50  0000 L CNN
-F 1 "10k" V 6050 7100 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 6000 7350 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0402WGF1002TCE_C25744.pdf" H 6000 7350 50  0001 C CNN
-F 4 "C25744" H 6000 7350 50  0001 C CNN "LCSC"
-	1    6000 7350
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	6700 7650 6700 7750
 Text GLabel 6300 6750 2    50   Input ~ 0
@@ -4620,8 +4593,6 @@ Wire Wire Line
 	6100 7150 6300 7150
 Wire Wire Line
 	6100 7250 6300 7250
-Wire Wire Line
-	6100 7350 6300 7350
 Wire Wire Line
 	6900 6300 6900 5450
 Wire Wire Line
@@ -4672,13 +4643,6 @@ Wire Wire Line
 	4300 7150 4600 7150
 Wire Wire Line
 	4300 7250 4500 7250
-Wire Wire Line
-	4300 7350 4400 7350
-Wire Wire Line
-	4400 5850 4400 7350
-Connection ~ 4400 7350
-Wire Wire Line
-	4400 7350 5900 7350
 Wire Wire Line
 	4500 5950 4500 7250
 Connection ~ 4500 7250
@@ -5710,4 +5674,29 @@ Connection ~ 6550 4150
 Connection ~ 8250 1300
 Connection ~ 8250 2250
 Connection ~ 8250 3200
+NoConn ~ 4300 7350
+$Comp
+L pace:GND #PWR?
+U 1 1 5FEECE60
+P 4400 5950
+F 0 "#PWR?" H 4400 5700 50  0001 C CNN
+F 1 "GND" H 4405 5777 50  0000 C CNN
+F 2 "" H 4400 5950 50  0001 C CNN
+F 3 "" H 4400 5950 50  0001 C CNN
+	1    4400 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 5850 4400 5950
+$Comp
+L pace:Conn_01x06_Male J27
+U 1 1 5FF4CAD5
+P 8050 7000
+F 0 "J27" H 8022 6928 50  0000 R CNN
+F 1 "Conn_01x06_Male" H 8022 6973 50  0001 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 8050 7000 50  0001 C CNN
+F 3 "~" H 8050 7000 50  0001 C CNN
+	1    8050 7000
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
