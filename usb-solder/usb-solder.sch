@@ -5699,4 +5699,15 @@ F 3 "~" H 8050 7000 50  0001 C CNN
 	1    8050 7000
 	-1   0    0    1   
 $EndComp
+$Comp
+L pace:aalogo LOGO1
+U 1 1 5FEE3CFD
+P 550 8100
+F 0 "LOGO1" H 575 8146 50  0000 L CNN
+F 1 "aalogo" H 575 8055 50  0000 L CNN
+F 2 "pace:aalogo" H 550 8100 50  0001 C CNN
+F 3 "" H 550 8100 50  0001 C CNN
+	1    550  8100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

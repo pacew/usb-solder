@@ -476,6 +476,17 @@ X Shield 6 -100 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# pace_aalogo
+#
+DEF pace_aalogo LOGO 0 40 Y Y 1 F N
+F0 "LOGO" 0 100 50 H V C CNN
+F1 "pace_aalogo" 0 0 50 H V C CNN
+F2 "pace:aalogo" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+ENDDRAW
+ENDDEF
+#
 # pace_fuse-250mA
 #
 DEF pace_fuse-250mA F 0 0 N Y 1 F N
